@@ -1,0 +1,69 @@
+name: Build
+
+on:
+  push:
+    branches:
+      - 'master'
+      - '*.x'
+      - 'a11y'
+      - '!1.*'
+      - '!2.*'
+      - '!3.0.*'
+      - '!3.1.*'
+  pull_request:
+    branches:
+      - 'master'
+      - 'a11y'
+      - '*.x'
+      - '!1.*'
+      - '!2.*'
+      - '!3.0.*'
+      - '!3.1.*'
+    types:
+      - opened
+      - reopened
+      - synchronize
+      - labeled
+
+env:
+  TZ: Europe/Zurich
+  PYTHON_VERSION: '3.12'
+  NODE_VERSION: '22.x'
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    name: Build package 📦
+    runs-on: ubuntu-22.04
+    if: github.event_name == 'push' || contains(github.event.pull_request.labels.*.name, 'build-wheel')
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          # prefer head commit over merge commit in case of PRs
+          ref: ${{ github.event_name == 'pull_request' && github.event.pull_request.head.sha || '' }}
+      - uses: actions/setup-python@v5
+        name: Set up Python 🐍
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+      - name: Install uv
+        uses: astral-sh/setup-uv@v6
+      - uses: actions/setup-node@v4
+        name: Setup Node
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+      - name: Install build deps 🔧
+        run: |
+          sudo apt-get install libpq-dev
+          uv pip install --system -e '.[dev]'
+      - name: Install npm deps ☕
+        run: npm ci
+      - name: Build wheel 🏗
+        run: ./bin/maintenance/build-wheel.py indico --add-version-suffix
+      - uses: actions/upload-artifact@v4
+        name: Upload build artifacts 📦
+        with:
+          name: indico-wheel
+          retention-days: 7
+          path: ./dist

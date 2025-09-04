@@ -1,0 +1,283 @@
+name: CI
+
+env:
+  TZ: Europe/Zurich
+  PYTHON_VERSION_312: '3.12.11'
+  NODE_VERSION: '22.x'
+
+on:
+  push:
+    branches:
+      - master
+      - '*.x'
+      - a11y
+  pull_request:
+    branches:
+      - master
+      - '*.x'
+      - a11y
+
+permissions:
+  contents: read
+
+jobs:
+  lint:
+    runs-on: ubuntu-22.04
+    steps:
+      # BEGIN common steps (Python+Node) - edit all occurrences if needed!
+      - uses: actions/checkout@v5
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION_312 }}
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: npm
+          cache-dependency-path: package*.json
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v6
+
+      - name: Cache node_modules
+        uses: actions/cache@v4
+        id: cache-npm
+        with:
+          path: node_modules
+          key: ${{ runner.os }}-npm-${{ hashFiles('package*.json') }}
+
+      - name: Install node dependencies
+        if: steps.cache-npm.outputs.cache-hit != 'true'
+        run: npm ci
+
+      - name: Install ripgrep
+        run: sudo apt-get install ripgrep
+
+      - name: Install Indico
+        run: uv pip install --system -e '.[dev]'
+      # END common steps
+
+      - name: Check EOF linebreaks
+        run: ./bin/maintenance/check_eof_linebreaks.sh
+
+      - name: Check import sorting
+        if: success() || failure()
+        run: isort --diff --check-only indico/
+
+      - name: Check backref comments
+        if: success() || failure()
+        run: python bin/maintenance/update_backrefs.py --ci
+
+      - name: Check icomoon css
+        if: success() || failure()
+        run: python bin/maintenance/generate_icons.py --ci
+
+      - name: Check moment locales
+        if: success() || failure()
+        run: python bin/maintenance/update_moment_locales.py --ci
+
+      - name: Check headers
+        if: success() || failure()
+        run: |
+          echo "::add-matcher::.github/matchers/headers-problem-matcher.json"
+          unbehead --check
+          echo "::remove-matcher owner=headers::"
+
+      - name: Run ruff
+        if: success() || failure()
+        run: |
+          ruff check --output-format github .
+
+      - name: Try extracting i18n strings (Python)
+        if: success() || failure()
+        run: indico i18n extract indico --python
+
+      - name: Try extracting i18n strings (JS)
+        if: success() || failure()
+        run: |
+          echo "::add-matcher::.github/matchers/react-jsx-i18n-problem-matcher.json"
+          FORCE_COLOR=1 indico i18n extract indico --react
+          echo "::remove-matcher owner=react-jsx-i18n::"
+
+      - name: Check i18n format strings
+        if: success() || failure()
+        run: indico i18n check-format-strings
+
+      - name: Check i18n HTML tags
+        if: success() || failure()
+        run: indico i18n check-html-tags
+
+      - name: Run eslint
+        if: success() || failure()
+        run: npx eslint --ext .js --ext .jsx --ext .ts --ext .tsx
+             indico/modules/rb/
+             indico/modules/logs/
+             indico/modules/events/editing/
+             indico/modules/events/client/js/reviewing/
+             indico/modules/events/papers/client/js/
+             indico/modules/events/registration/client/js/
+             indico/web/client/js/react/
+             indico/modules/users/
+             indico/modules/search/
+             indico/modules/receipts/
+
+      - name: Run stylelint for all files
+        if: github.event_name == 'push' && (success() || failure())
+        run: |
+          echo "::add-matcher::.github/matchers/stylelint-problem-matcher.json"
+          npx stylelint --formatter unix 'indico/**/*.{scss,css}'
+          echo "::remove-matcher owner=stylelint::"
+
+      # GitHub shows annotations for files not touched in the PR, which is very noisy in case
+      # of stylelint warnings, so we only run it for changed files when running on PRs
+      # https://github.com/actions/toolkit/issues/457
+      - name: Get list of changed files
+        if: github.event_name == 'pull_request' && (success() || failure())
+        uses: umani/changed-files@v4.2.0
+        with:
+          repo-token: ${{ github.token }}
+          result-encoding: json
+          pattern: '^.+\.s?css$'
+
+      - name: Run stylelint for changed files
+        if: github.event_name == 'pull_request' && (success() || failure())
+        run: |
+          echo "::add-matcher::.github/matchers/stylelint-problem-matcher.json"
+          jq -rs '(.[0] + .[1]) | unique | .[]' ~/files_{created,updated}.json | tr '\n' '\0' | xargs -0 -r \
+            npx stylelint --formatter unix
+          echo "::remove-matcher owner=stylelint::"
+
+
+  test-python:
+    name: test-python-${{ matrix.name }}
+    runs-on: ubuntu-22.04
+
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - { name: '3.12', python: '3.12', python_version_var: 'PYTHON_VERSION_312' }
+
+    services:
+      postgres:
+        image: postgres:13
+        env:
+          POSTGRES_HOST_AUTH_METHOD: trust
+        ports:
+          - 5432
+        options: --health-cmd pg_isready --health-interval 5s --health-timeout 5s --health-retries 10
+
+    steps:
+      # BEGIN common steps (Python only) - edit all occurrences if needed!
+      - uses: actions/checkout@v5
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env[matrix.python_version_var] }}
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v6
+
+      - name: Install Indico
+        run: uv pip install --system -e '.[dev]'
+      # END common steps
+
+      - name: Install redis
+        run: sudo apt-get install redis-server
+
+      - name: Setup database
+        run: |
+          sudo apt-get update
+          sudo apt-get install postgresql-client
+          export PGHOST=localhost
+          export PGPORT=${{ job.services.postgres.ports[5432] }}
+          export PGUSER=postgres
+          createuser indicotest
+          createdb -O indicotest indicotest
+          psql indicotest -c 'CREATE EXTENSION unaccent;'
+          psql indicotest -c 'CREATE EXTENSION pg_trgm;'
+
+      - name: Run pytest tests
+        run: |
+          export INDICO_TEST_DATABASE_URI="postgresql://indicotest@localhost:${{ job.services.postgres.ports[5432] }}/indicotest"
+          pytest --color=yes
+
+  test-python-nodb:
+    name: test-python-${{ matrix.name }}-nodb
+    runs-on: ubuntu-22.04
+
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - { name: '3.12', python: '3.12', python_version_var: 'PYTHON_VERSION_312' }
+
+    steps:
+      # BEGIN common steps (Python only) - edit all occurrences if needed!
+      - uses: actions/checkout@v5
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env[matrix.python_version_var] }}
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v6
+
+      - name: Install Indico
+        run: uv pip install --system -e '.[dev]'
+      # END common steps
+
+      - name: Install redis
+        run: sudo apt-get install redis-server
+
+      - name: Run pytest tests
+        run: |
+          export INDICO_TEST_DATABASE_URI=''
+          pytest --color=yes
+
+  test-js:
+    runs-on: ubuntu-22.04
+    steps:
+      # BEGIN common steps (Python+Node) - edit all occurrences if needed!
+      - uses: actions/checkout@v5
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION_312 }}
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: npm
+          cache-dependency-path: package*.json
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v6
+
+      - name: Cache node_modules
+        uses: actions/cache@v4
+        id: cache-npm
+        with:
+          path: node_modules
+          key: ${{ runner.os }}-npm-${{ hashFiles('package*.json') }}
+
+      - name: Install node dependencies
+        if: steps.cache-npm.outputs.cache-hit != 'true'
+        run: npm ci
+
+      - name: Install Indico
+        run: uv pip install --system -e '.[dev]'
+      # END common steps
+
+      - name: Run jest tests
+        run: npm test
+
+      - name: Try building assets
+        run: python bin/maintenance/build-assets.py indico --dev

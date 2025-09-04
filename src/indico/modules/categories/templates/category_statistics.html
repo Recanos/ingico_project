@@ -1,0 +1,23 @@
+{% from 'message_box.html' import message_box %}
+
+<div class="category-container">
+    <div class="category-header">
+        <h1 class="category-title">
+            {% if category.is_root %}
+                {% trans %}Global statistics{% endtrans %}
+            {% else %}
+                {% trans category=category.title -%}
+                    Statistics for {{ category }}
+                {%- endtrans%}
+            {% endif %}
+        </h1>
+    </div>
+    <div id="category-stats-root"
+         class="category-stats-container"
+         data-lang="{{ session.lang }}"
+         data-category-id="{{ category.id }}">
+    </div>
+</div>
+<script>
+    setupCategoryStats();
+</script>

@@ -1558,3 +1558,8 @@ socket.gaierror: [Errno -2] Name or service not known
 2025-09-01 16:40:48,290  INFO     9270dcd4d31a4bef  1       indico.rh                 GET /event/4/papers/api/4 [IP=127.0.0.1] [PID=33530]
 2025-09-01 16:40:51,463  INFO     2eb13dab796945ce  1       indico.rh                 GET /event/4/manage/ [IP=127.0.0.1] [PID=33530]
 2025-09-01 16:40:56,048  INFO     4a95901dd152436a  1       indico.rh                 GET /event/4/manage/export [IP=127.0.0.1] [PID=33530]
+2025-09-04 21:04:30,644  INFO     c440f33d81944f4d  1       indico.rh                 GET / [IP=127.0.0.1] [PID=15703]
+2025-09-04 21:16:06,179  INFO     54cc304c08de4998  1       indico.rh                 GET / [IP=127.0.0.1] [PID=17722]
+2025-09-04 21:16:13,436  INFO     dadf4f1e67304977  1       indico.rh                 GET /event/4/ [IP=127.0.0.1] [PID=17722]
+2025-09-04 21:16:18,110  INFO     0a9f15210e6449b9  1       indico.rh                 GET /event/4/manage/ [IP=127.0.0.1] [PID=17722]
+2025-09-04 21:16:22,151  INFO     a0822ae7f51a47e8  1       indico.rh                 GET /event/4/manage/export [IP=127.0.0.1] [PID=17722]

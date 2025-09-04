@@ -1,0 +1,21 @@
+{% if category|default(none) %}
+    {% extends 'categories/management/base.html' %}
+{% elif event|default(none) %}
+    {% extends 'events/management/base.html' %}
+{% elif user|default(none) %}
+    {% extends 'users/base.html' %}
+{% else %}
+    {% extends 'layout/admin_page.html' %}
+{% endif %}
+
+{% block title %}
+    {%- trans %}Logs{% endtrans -%}
+{% endblock %}
+
+{% block content %}
+    <div class="event-log"
+         data-fetch-logs-url="{{ logs_api_url }}"
+         data-realms="{{ realms|tojson|forceescape }}"
+         data-metadata-query="{{ metadata_query|tojson|forceescape }}">
+    </div>
+{% endblock %}

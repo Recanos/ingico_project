@@ -1,0 +1,20 @@
+{% extends 'forms/base_widget.html' %}
+
+
+{% block html %}
+    <input type="hidden" name="{{ field.name }}" id="{{ field.id }}" value="{{ field._value() }}">
+{% endblock %}
+
+
+{% block javascript %}
+    <script>
+        setupTinyMCEWidget({
+            fieldId: {{ field.id | tojson }},
+            disabled: {{ disabled|default(false) | tojson }},
+            images: {{ images | tojson }},
+            imageUploadURL: {{ field.get_form().editor_upload_url|default(none) | tojson }},
+            forceAbsoluteURLs: {{ absolute_urls | tojson }},
+            height: {{ height | tojson }},
+        });
+    </script>
+{% endblock %}

@@ -1,0 +1,54 @@
+# temporary/bytecode files
+*~
+.*.swp
+*.py[co]
+__pycache__/
+.pytest_cache/
+.venv/
+
+# configs
+*.conf
+logging.yaml
+
+# python packaging
+/dist
+/build
+*.egg-info
+
+# generated stuff
+indico/web/static/dist
+url_map.json
+indico/translations/*/LC_MESSAGES/messages.po
+indico/translations/*/LC_MESSAGES/messages-js.po
+indico/translations/*/LC_MESSAGES/messages-react.po
+indico/translations/*/LC_MESSAGES/*.mo
+indico/translations/*/LC_MESSAGES/messages-react.json
+!indico/translations/en_US/LC_MESSAGES/messages.po
+
+# fetched external dependencies
+indico/htdocs/*/lib/
+node_modules
+/ext_modules/node_env/
+
+# IDE files
+.idea/
+*.sublime-*
+.vscode/*
+!.vscode/extensions.json
+
+# testing
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+/.cache/
+
+# sphinx
+/docs/build/
+
+# logs
+*.log
+
+# node/webpack
+webpack-build-config.json
+*.lock

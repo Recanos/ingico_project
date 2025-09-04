@@ -1,0 +1,8 @@
+{% extends 'events/management/base.html' %}
+
+{% block content %}
+  <h2>Экспорт документов</h2>
+  <a class="i-button icon-file-word" href="{{ url_for_plugin('.export_list', event_id=event.id) }}">Список докладов</a>
+  <a class="i-button icon-file-word" href="{{ url_for_plugin('.export_report', event_id=event.id) }}">Отчет о проведении конференции</a>
+  <a class="i-button icon-file-word" href="{{ url_for_plugin('.export_papers', event_id=event.id) }}">Список статей</a>
+{% endblock %} 
