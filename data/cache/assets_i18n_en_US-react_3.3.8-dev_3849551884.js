@@ -1,0 +1,1 @@
+window.REACT_TRANSLATIONS = {"indico":{"":{"domain":"indico","lang":"en_US"}}};

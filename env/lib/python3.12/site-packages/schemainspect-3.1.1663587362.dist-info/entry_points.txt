@@ -1,0 +1,3 @@
+[console_scripts]
+schemainspect=schemainspect:do_command
+

@@ -1,0 +1,41 @@
+{% extends 'events/management/base.html' %}
+
+{% block title %}Экспорт документов{% endblock %}
+
+{% block content %}
+  <div class="action-box">
+    <div class="section">
+      <div class="icon icon-file-word"></div>
+      <div class="text">
+        <div class="label">Экспорт документов</div>
+        <div>Выберите тип документа для экспорта в формате DOCX</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="toolbar">
+    <div class="group">
+      <a class="i-button icon-file-word highlight" 
+         href="{{ url_for_plugin('.export_list', event_id=event.id) }}"
+         title="Экспорт списка докладов с информацией о докладчиках">
+        <span>Список докладов</span>
+      </a>
+      <a class="i-button icon-file-word" 
+         href="{{ url_for_plugin('.export_report', event_id=event.id) }}"
+         title="Экспорт отчета о проведении конференции">
+        <span>Отчет о проведении</span>
+      </a>
+      <a class="i-button icon-file-word" 
+         href="{{ url_for_plugin('.export_papers', event_id=event.id) }}"
+         title="Экспорт списка статей для публикации">
+        <span>Список статей</span>
+      </a>
+    </div>
+  </div>
+
+  <div class="info-message-box">
+    <div class="message-text">
+      <strong>Список докладов</strong> - содержит таблицу с колонками: №, Фамилия и инициалы докладчика + название доклада, Статус (магистр/студент), Решение.
+    </div>
+  </div>
+{% endblock %} 

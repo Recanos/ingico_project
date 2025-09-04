@@ -1,0 +1,1 @@
+window.REACT_TRANSLATIONS = {"exportdocs":{"":{"domain":"exportdocs","lang":"en_US"}},"indico":{"":{"domain":"indico","lang":"en_US"}}};

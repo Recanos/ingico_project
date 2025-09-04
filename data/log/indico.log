@@ -1,0 +1,1560 @@
+2025-08-24 16:48:59,063  ERROR    0000000000000000  -       indico.i18n               Configured DEFAULT_LOCALE (en_GB) does not exist
+2025-08-24 17:03:06,937  INFO     4cf57fbfb443441e  -       indico.rh                 GET /bootstrap [IP=127.0.0.1] [PID=41355]
+2025-08-24 18:41:47,515  INFO     82b5ab4fbc114dd1  -       indico.rh                 POST /bootstrap [IP=127.0.0.1] [PID=41355]
+2025-08-24 18:42:45,469  INFO     ae650e1870434b57  -       indico.rh                 POST /bootstrap [IP=127.0.0.1] [PID=41355]
+2025-08-24 18:42:46,614  INFO     641165a130724d13  1       indico.rh                 GET / [IP=127.0.0.1] [PID=41355]
+2025-08-24 22:41:07,644  INFO     0c147c1fbc4145de  1       indico.rh                 GET / [IP=127.0.0.1] [PID=75778]
+2025-08-25 22:38:16,970  INFO     96d57db298bf422f  1       indico.rh                 GET / [IP=127.0.0.1] [PID=11090]
+2025-08-25 22:38:29,979  INFO     939e1bcf384d4bb5  1       indico.rh                 GET / [IP=127.0.0.1] [PID=11090]
+2025-08-25 22:38:32,107  INFO     33a7261e4fcd42f2  1       indico.rh                 GET /rooms/ [IP=127.0.0.1] [PID=11090]
+2025-08-25 22:38:32,696  INFO     72da10fbc7c44cdd  1       indico.rh                 GET /rooms/api/equipment [IP=127.0.0.1] [PID=11090]
+2025-08-25 22:38:32,676  INFO     b23a4d32a1e142e0  1       indico.rh                 GET /rooms/api/user/favorite-rooms/ [IP=127.0.0.1] [PID=11090]
+2025-08-25 22:38:32,714  INFO     eeb99433539c4e01  1       indico.rh                 GET /rooms/api/rooms/ [IP=127.0.0.1] [PID=11090]
+2025-08-25 22:38:32,694  INFO     45ac4f5a6e3143ae  1       indico.rh                 GET /rooms/api/config [IP=127.0.0.1] [PID=11090]
+2025-08-25 22:38:32,678  INFO     a3830f837ca540b1  1       indico.rh                 GET /rooms/api/user/ [IP=127.0.0.1] [PID=11090]
+2025-08-25 22:38:32,722  INFO     d188df08c9d549a6  1       indico.rh                 GET /rooms/api/rooms/permissions [IP=127.0.0.1] [PID=11090]
+2025-08-25 22:38:33,148  INFO     7d2f318afcd64d6e  1       indico.rh                 GET /user/1/picture-default/MQ.7PNi0m3iNmVb9Kx8yx6tt2HTRC8 [IP=127.0.0.1] [PID=11090]
+2025-08-25 22:38:33,137  INFO     c92a57aa857b4f7b  1       indico.rh                 GET /rooms/api/bookings/mine [IP=127.0.0.1] [PID=11090]
+2025-08-25 22:38:33,140  INFO     b120c2bc8a724c90  1       indico.rh                 GET /user/api/favorites/users [IP=127.0.0.1] [PID=11090]
+2025-08-25 22:38:33,266  INFO     d08bf67c25714cf7  1       indico.rh                 GET /rooms/api/stats [IP=127.0.0.1] [PID=11090]
+2025-08-25 22:38:41,273  INFO     c29c1307b5cd4554  1       indico.rh                 GET /event/create/lecture?category_id=0&_=1756150717012 [IP=127.0.0.1] [PID=11090]
+2025-08-25 22:38:41,607  INFO     80dd82bd6af5432b  1       indico.rh                 GET /category/0/info [IP=127.0.0.1] [PID=11090]
+2025-08-25 22:38:41,784  INFO     5ff4f85a60934889  1       indico.rh                 GET /user/api/favorites/users [IP=127.0.0.1] [PID=11090]
+2025-08-25 22:39:06,146  INFO     489fff272ede47e5  1       indico.rh                 POST /event/create/lecture [IP=127.0.0.1] [PID=11090]
+2025-08-25 22:39:06,319  INFO     489fff272ede47e5  1       indico.events             Event <Event(1, 2025-08-26 06:00:00+00:00, 2025-08-26 08:00:00+00:00): "test_event"> created in <Category(0): "Home"> by <User(1, recanos@yandex.ru): "Recanos Karp"> 
+2025-08-25 22:39:06,462  INFO     6258d31bd3784001  1       indico.rh                 GET /event/1/manage/ [IP=127.0.0.1] [PID=11090]
+2025-08-25 23:23:18,843  INFO     09785951f0a7476a  1       indico.rh                 GET / [IP=127.0.0.1] [PID=17820]
+2025-08-25 23:23:37,437  INFO     cac42f0975bf43db  1       indico.rh                 GET /admin/settings/ [IP=127.0.0.1] [PID=17820]
+2025-08-25 23:23:38,597  INFO     323d08439771458a  1       indico.rh                 GET /admin/version-check?_=1756153418484 [IP=127.0.0.1] [PID=17820]
+2025-08-25 23:23:40,329  INFO     c2bc4446419e4b81  1       indico.rh                 GET /admin/plugins/ [IP=127.0.0.1] [PID=17820]
+2025-08-25 23:23:44,032  INFO     221baa3f505f446b  1       indico.rh                 GET /admin/plugins/ [IP=127.0.0.1] [PID=17820]
+2025-08-26 00:32:46,357  INFO     a3ec47d308a14529  1       indico.rh                 GET / [IP=127.0.0.1] [PID=3710]
+2025-08-26 00:32:51,367  INFO     7654bbbae9204d26  1       indico.rh                 GET /event/1/ [IP=127.0.0.1] [PID=3710]
+2025-08-26 00:32:53,839  INFO     971ae0d583f34a37  1       indico.rh                 GET / [IP=127.0.0.1] [PID=3710]
+2025-08-26 00:32:56,327  INFO     61fcd6c5286d49f2  1       indico.rh                 GET /event/1/ [IP=127.0.0.1] [PID=3710]
+2025-08-26 00:33:10,549  INFO     f180aad90a4345ff  1       indico.rh                 GET /admin/settings/ [IP=127.0.0.1] [PID=3710]
+2025-08-26 00:33:11,066  INFO     2c0a89571a714bfa  1       indico.rh                 GET /admin/version-check?_=1756157591022 [IP=127.0.0.1] [PID=3710]
+2025-08-26 00:33:12,449  INFO     ea62702daa6e46ca  1       indico.rh                 GET /admin/plugins/ [IP=127.0.0.1] [PID=3710]
+2025-08-26 00:42:29,215  INFO     8cf638e408f34901  1       indico.rh                 GET / [IP=127.0.0.1] [PID=5712]
+2025-08-26 00:42:38,056  INFO     e4d4ce4d170547ef  1       indico.rh                 GET /admin/settings/ [IP=127.0.0.1] [PID=5712]
+2025-08-26 00:42:38,600  INFO     79e40852a46e4247  1       indico.rh                 GET /admin/version-check?_=1756158158536 [IP=127.0.0.1] [PID=5712]
+2025-08-26 00:42:41,665  INFO     4e8ecc13494e4afb  1       indico.rh                 GET /admin/plugins/ [IP=127.0.0.1] [PID=5712]
+2025-08-26 00:42:47,447  INFO     2a8e0799545b48bd  1       indico.rh                 GET /admin/plugins/ [IP=127.0.0.1] [PID=5712]
+2025-08-26 00:42:53,216  INFO     fa16444ef3304ea8  -       indico.rh                 GET /admin/plugins/ [IP=127.0.0.1] [PID=5712]
+2025-08-26 00:42:53,234  INFO     1e5983d1a911450f  -       indico.rh                 GET /login/?next=/admin/plugins/ [IP=127.0.0.1] [PID=5712]
+2025-08-26 00:42:57,990  INFO     8ac3912af3724af7  -       indico.rh                 POST /login/?next=/admin/plugins/ [IP=127.0.0.1] [PID=5712]
+2025-08-26 00:42:58,516  INFO     8ac3912af3724af7  -       indico.auth               Received identity info: <IdentityInfo(<IndicoIdentityProvider(indico)>, recanos, None)>
+2025-08-26 00:42:58,523  INFO     8ac3912af3724af7  -       indico.auth               Found existing identity <Identity(1, 1, indico, recanos)> for user <User(1, recanos@yandex.ru): "Recanos Karp">
+2025-08-26 00:42:58,544  INFO     4c407a0569a74a85  1       indico.rh                 GET /admin/plugins/ [IP=127.0.0.1] [PID=5712]
+2025-08-26 00:43:06,200  INFO     8d78bf1991004c7e  1       indico.rh                 GET /event/create/meeting?_=1756158178928 [IP=127.0.0.1] [PID=5712]
+2025-08-26 00:43:06,366  INFO     65a13af96b654ccd  1       indico.rh                 GET /category/0/info [IP=127.0.0.1] [PID=5712]
+2025-08-26 00:43:10,953  INFO     808e51f5a21347ea  1       indico.rh                 POST /event/create/meeting [IP=127.0.0.1] [PID=5712]
+2025-08-26 00:43:11,068  INFO     808e51f5a21347ea  1       indico.events             Event <Event(2, 2025-08-25 22:00:00+00:00, 2025-08-26 00:00:00+00:00): "hui"> created in <Category(0): "Home"> by <User(1, recanos@yandex.ru): "Recanos Karp"> 
+2025-08-26 00:43:11,179  INFO     ba09c02f8b534d3c  1       indico.rh                 GET /event/2/manage/ [IP=127.0.0.1] [PID=5712]
+2025-08-26 00:50:46,109  INFO     bf8d04a420b64373  1       indico.rh                 GET / [IP=127.0.0.1] [PID=7461]
+2025-08-26 00:50:54,484  INFO     60aad36b87904f86  1       indico.rh                 GET /admin/settings/ [IP=127.0.0.1] [PID=7461]
+2025-08-26 00:50:55,360  INFO     dd1cac7f17f94c5a  1       indico.rh                 GET /admin/version-check?_=1756158655259 [IP=127.0.0.1] [PID=7461]
+2025-08-26 00:50:57,178  INFO     0fab994d0d2c4a4d  1       indico.rh                 GET /admin/plugins/ [IP=127.0.0.1] [PID=7461]
+2025-08-26 00:53:51,329  INFO     19a3bcd6e3e24463  1       indico.rh                 GET / [IP=127.0.0.1] [PID=7461]
+2025-08-26 00:53:53,855  INFO     e439ad120b774950  1       indico.rh                 GET / [IP=127.0.0.1] [PID=7461]
+2025-08-26 00:53:56,566  INFO     cd62978249db4213  1       indico.rh                 GET /user/dashboard/ [IP=127.0.0.1] [PID=7461]
+2025-08-26 00:54:04,373  INFO     983eb0290b3e4e72  1       indico.rh                 GET /user/profile/ [IP=127.0.0.1] [PID=7461]
+2025-08-26 00:54:13,982  INFO     ff0378725b8e459b  1       indico.rh                 GET /user/dashboard/ [IP=127.0.0.1] [PID=7461]
+2025-08-26 00:54:16,422  INFO     cf6d493b2cf945fb  1       indico.rh                 GET /user/profile/ [IP=127.0.0.1] [PID=7461]
+2025-08-26 00:55:15,317  INFO     b84bafe835f04494  1       indico.rh                 GET /user/dashboard/ [IP=127.0.0.1] [PID=7461]
+2025-08-26 00:55:17,200  INFO     453825b3905f4d4c  1       indico.rh                 GET /event/1/ [IP=127.0.0.1] [PID=7461]
+2025-08-26 00:55:31,486  INFO     e3d4aaec729d4e1f  1       indico.rh                 GET /event/1/manage/ [IP=127.0.0.1] [PID=7461]
+2025-08-26 00:55:39,397  INFO     a9720d18ac3c47b4  1       indico.rh                 GET /event/1/manage/logs/ [IP=127.0.0.1] [PID=7461]
+2025-08-26 00:55:40,008  INFO     b0f935298e734386  1       indico.rh                 GET /event/1/manage/logs/api/logs?page=1&filters=emails&filters=event&filters=management&filters=participants&filters=reviewing [IP=127.0.0.1] [PID=7461]
+2025-08-26 00:56:39,920  INFO     3b2320171fd44969  1       indico.rh                 GET /event/1/manage/logs/api/logs?page=1&filters=emails&filters=event&filters=management&filters=participants [IP=127.0.0.1] [PID=7461]
+2025-08-26 00:56:45,580  INFO     69e5456dbf674ca6  1       indico.rh                 GET /event/1/manage/logs/api/logs?page=1&filters=emails&filters=event&filters=management&filters=participants&filters=reviewing [IP=127.0.0.1] [PID=7461]
+2025-08-26 00:56:46,070  INFO     e59dea7a873d4d10  1       indico.rh                 GET /event/1/manage/logs/api/logs?page=1&filters=emails&filters=event&filters=management&filters=participants [IP=127.0.0.1] [PID=7461]
+2025-08-26 01:01:08,031  INFO     ac1331329c4a4f11  1       indico.rh                 GET /event/1/manage/ [IP=127.0.0.1] [PID=7461]
+2025-08-26 01:01:17,835  INFO     8e361ddf769e400f  1       indico.rh                 GET /event/1/manage/settings/persons?_=1756159269170 [IP=127.0.0.1] [PID=7461]
+2025-08-26 01:01:17,985  INFO     859906ae3ddf4da3  1       indico.rh                 GET /user/api/favorites/users [IP=127.0.0.1] [PID=7461]
+2025-08-26 01:01:20,475  INFO     93c5fba1e0544261  1       indico.rh                 POST /event/1/manage/settings/persons [IP=127.0.0.1] [PID=7461]
+2025-08-26 01:01:20,665  INFO     93c5fba1e0544261  1       indico.events             Event <Event(1, 2025-08-26 06:00:00+00:00, 2025-08-26 08:00:00+00:00): "test_event"> updated with {'person_link_data': {<EventPersonLink(1, person_id=1, event_id=1): "Recanos Karp">: True}} by <User(1, recanos@yandex.ru): "Recanos Karp">
+2025-08-26 01:01:22,014  INFO     fba034d7ec9e47fe  1       indico.rh                 GET /event/1/manage/settings/persons?_=1756159269171 [IP=127.0.0.1] [PID=7461]
+2025-08-26 01:01:22,096  INFO     a8285c8d3d944143  1       indico.rh                 GET /user/api/favorites/users [IP=127.0.0.1] [PID=7461]
+2025-08-26 01:01:24,357  INFO     8dc2ebfeceee4d7a  1       indico.rh                 GET /user/search/info [IP=127.0.0.1] [PID=7461]
+2025-08-26 01:01:27,222  INFO     c63f0e6d7ba94727  1       indico.rh                 GET /user/search/info [IP=127.0.0.1] [PID=7461]
+2025-08-26 01:01:33,761  INFO     f844845fba004a51  1       indico.rh                 GET /user/search/?last_name=df&first_name=d&email=s&favorites_first=true&token=MQ.aKzdMg.Wt-Q0g9I49VkWA8tZSjv-GVdfrg [IP=127.0.0.1] [PID=7461]
+2025-08-26 01:01:34,411  INFO     335d77115b284b94  1       indico.rh                 GET /user/search/?last_name=df&first_name=d&email=s&favorites_first=true&token=MQ.aKzdMg.Wt-Q0g9I49VkWA8tZSjv-GVdfrg [IP=127.0.0.1] [PID=7461]
+2025-08-26 19:44:20,545  INFO     20ef69db21d24b38  1       indico.rh                 GET / [IP=127.0.0.1] [PID=4008]
+2025-08-26 19:44:21,087  INFO     b1e2ff5ef4b64628  1       indico.rh                 GET / [IP=127.0.0.1] [PID=4008]
+2025-08-26 19:44:28,216  INFO     9a4867d7c4474306  1       indico.rh                 GET / [IP=127.0.0.1] [PID=4008]
+2025-08-26 19:44:29,654  INFO     6e8f6cda7da94920  1       indico.rh                 GET /user/dashboard/ [IP=127.0.0.1] [PID=4008]
+2025-08-26 19:44:38,545  INFO     4353441e61fb4958  1       indico.rh                 GET /admin/settings/ [IP=127.0.0.1] [PID=4008]
+2025-08-26 19:44:39,402  INFO     ed21513056654e1a  1       indico.rh                 GET /admin/version-check?_=1756226679314 [IP=127.0.0.1] [PID=4008]
+2025-08-26 19:44:41,106  INFO     e18eb9c2b5c04172  1       indico.rh                 GET /admin/plugins/ [IP=127.0.0.1] [PID=4008]
+2025-08-26 19:44:54,839  INFO     6ecf7581dd874234  1       indico.rh                 GET /event/create/lecture?_=1756226681515 [IP=127.0.0.1] [PID=4008]
+2025-08-26 19:44:55,051  INFO     7fa36d177c344f30  1       indico.rh                 GET /category/0/info [IP=127.0.0.1] [PID=4008]
+2025-08-26 19:44:55,176  INFO     655736beabfa414b  1       indico.rh                 GET /user/api/favorites/users [IP=127.0.0.1] [PID=4008]
+2025-08-26 20:07:48,031  INFO     0d55105dea7046bc  1       indico.rh                 GET /admin/plugins/ [IP=127.0.0.1] [PID=6905]
+2025-08-26 20:07:51,552  INFO     4516cf56fd2241cf  1       indico.rh                 GET /event/create/lecture?_=1756228069102 [IP=127.0.0.1] [PID=6905]
+2025-08-26 20:07:51,818  INFO     bff361ae344048c9  1       indico.rh                 GET /category/0/info [IP=127.0.0.1] [PID=6905]
+2025-08-26 20:07:51,955  INFO     5c65c11e2e44415f  1       indico.rh                 GET /user/api/favorites/users [IP=127.0.0.1] [PID=6905]
+2025-08-26 20:08:42,152  INFO     e764bfaa4d674965  1       indico.rh                 GET /event/create/conference?_=1756228069103 [IP=127.0.0.1] [PID=6905]
+2025-08-26 20:08:42,377  INFO     4da59884807b40d0  1       indico.rh                 GET /category/0/info [IP=127.0.0.1] [PID=6905]
+2025-08-26 20:09:19,977  INFO     63f14a8628b64f39  1       indico.rh                 POST /event/create/conference [IP=127.0.0.1] [PID=6905]
+2025-08-26 20:09:20,360  INFO     63f14a8628b64f39  1       indico.events             Event <Event(3, 2025-08-27 06:00:00+00:00, 2025-08-28 08:00:00+00:00): "Тестовый ивент"> created in <Category(0): "Home"> by <User(1, recanos@yandex.ru): "Recanos Karp"> 
+2025-08-26 20:09:20,496  INFO     4d793f99a78c4090  1       indico.rh                 GET /event/3/manage/ [IP=127.0.0.1] [PID=6905]
+2025-08-26 20:10:28,620  INFO     93d31620db9f46e1  1       indico.rh                 GET /event/3/manage/settings/persons?_=1756228161626 [IP=127.0.0.1] [PID=6905]
+2025-08-26 20:10:28,756  INFO     800435f1c6d0428e  1       indico.rh                 GET /user/api/favorites/users [IP=127.0.0.1] [PID=6905]
+2025-08-26 20:10:32,006  INFO     887c2717ebfe4dc4  1       indico.rh                 POST /event/3/manage/settings/persons [IP=127.0.0.1] [PID=6905]
+2025-08-26 20:10:32,105  INFO     887c2717ebfe4dc4  1       indico.events             Event <Event(3, 2025-08-27 06:00:00+00:00, 2025-08-28 08:00:00+00:00): "Тестовый ивент"> updated with {'person_link_data': {<EventPersonLink(2, person_id=2, event_id=3): "Recanos Karp">: True}} by <User(1, recanos@yandex.ru): "Recanos Karp">
+2025-08-26 20:10:33,693  INFO     efd912739f0c48b9  1       indico.rh                 GET /event/3/manage/settings/persons?_=1756228161627 [IP=127.0.0.1] [PID=6905]
+2025-08-26 20:10:33,771  INFO     a0a9e1b6578542b7  1       indico.rh                 GET /user/api/favorites/users [IP=127.0.0.1] [PID=6905]
+2025-08-26 20:10:58,510  INFO     595e0cd9d7e64ec6  1       indico.rh                 GET /event/3/manage/settings/persons?_=1756228161628 [IP=127.0.0.1] [PID=6905]
+2025-08-26 20:10:58,619  INFO     10b9f364768f46b5  1       indico.rh                 GET /user/api/favorites/users [IP=127.0.0.1] [PID=6905]
+2025-08-26 20:11:12,924  INFO     9bf2001e985a4c28  1       indico.rh                 POST /event/3/manage/settings/persons [IP=127.0.0.1] [PID=6905]
+2025-08-26 20:11:12,987  INFO     9bf2001e985a4c28  1       indico.events             Event <Event(3, 2025-08-27 06:00:00+00:00, 2025-08-28 08:00:00+00:00): "Тестовый ивент"> updated with {'person_link_data': {}} by <User(1, recanos@yandex.ru): "Recanos Karp">
+2025-08-26 20:11:17,502  INFO     2b9513a2a7514193  1       indico.rh                 GET /event/3/manage/contributions/ [IP=127.0.0.1] [PID=6905]
+2025-08-26 20:11:19,074  INFO     fb73fb3a58b74ff8  1       indico.rh                 GET /event/3/manage/contributions/published [IP=127.0.0.1] [PID=6905]
+2025-08-26 20:11:26,663  INFO     114c22f6e16a4236  1       indico.rh                 GET /event/3/manage/contributions/create?_=1756228278854 [IP=127.0.0.1] [PID=6905]
+2025-08-26 20:11:26,929  INFO     ff25e013b30b40a1  1       indico.rh                 GET /user/api/favorites/users [IP=127.0.0.1] [PID=6905]
+2025-08-26 20:12:23,286  INFO     b2680fcce51f48b5  1       indico.rh                 POST /event/3/manage/contributions/create [IP=127.0.0.1] [PID=6905]
+2025-08-26 20:12:23,472  INFO     b2680fcce51f48b5  1       indico.events.contributions Contribution <Contribution(1): "ТЕСТОВЫЙ ДОКЛАД"> created by <User(1, recanos@yandex.ru): "Recanos Karp">
+2025-08-26 20:12:44,735  INFO     8666cc9044994448  1       indico.rh                 GET /event/3/manage/contributions/ [IP=127.0.0.1] [PID=6905]
+2025-08-26 20:12:45,445  INFO     10614bb915f84478  1       indico.rh                 GET /event/3/manage/contributions/published [IP=127.0.0.1] [PID=6905]
+2025-08-26 20:12:47,340  INFO     fb98c3d01c2645b5  1       indico.rh                 GET /event/3/manage/contributions/ [IP=127.0.0.1] [PID=6905]
+2025-08-26 20:12:47,864  INFO     f9390f2aa892459a  1       indico.rh                 GET /event/3/manage/contributions/published [IP=127.0.0.1] [PID=6905]
+2025-08-26 20:13:39,162  INFO     58e13d28ded14c7e  1       indico.rh                 GET / [IP=127.0.0.1] [PID=6905]
+2025-08-26 20:13:51,951  INFO     9b9609a984664525  1       indico.rh                 GET /event/3/ [IP=127.0.0.1] [PID=6905]
+2025-08-26 20:14:31,258  INFO     21017da2671d4aea  1       indico.rh                 GET / [IP=127.0.0.1] [PID=6905]
+2025-08-26 20:14:52,057  INFO     03817b558f204f2b  1       indico.rh                 GET /event/2/ [IP=127.0.0.1] [PID=6905]
+2025-08-26 20:14:58,580  INFO     aec0c56a42744123  1       indico.rh                 POST /api/sign-url [IP=127.0.0.1] [PID=6905]
+2025-08-26 20:14:58,607  INFO     aec0c56a42744123  1       indico.url_signing        <User(1, recanos@yandex.ru): "Recanos Karp"> signed URL for endpoint 'events.export_event_ical' with params {'event_id': '2'}
+2025-08-26 20:15:08,352  INFO     77571c490ead4555  1       indico.rh                 GET /event/2/event.ics?user_token=1_y8EldELEw3Cta0AqLcwXXGxAQktcQIdvYqUDoG-2pRo [IP=127.0.0.1] [PID=6905]
+2025-08-26 20:15:22,367  INFO     6328e879845d4572  1       indico.rh                 GET /event/2/manage/ [IP=127.0.0.1] [PID=6905]
+2025-08-26 20:20:24,438  INFO     8b473c1da4f74eba  1       indico.rh                 GET /event/2/manage/import?_=1756228522775 [IP=127.0.0.1] [PID=6905]
+2025-08-26 20:23:52,570  INFO     4cd793648d474197  1       indico.rh                 GET /event/3/manage/ [IP=127.0.0.1] [PID=6905]
+2025-08-26 20:24:07,026  INFO     c458ceac335f4c6b  1       indico.rh                 GET /event/3/manage/ [IP=127.0.0.1] [PID=6905]
+2025-08-26 20:37:09,664  INFO     e9550f5c04534c5b  1       indico.rh                 GET /event/3/manage/settings/persons?_=1756229048215 [IP=127.0.0.1] [PID=6905]
+2025-08-26 20:37:11,646  INFO     8d73cd158b054df0  1       indico.rh                 GET /user/api/favorites/users [IP=127.0.0.1] [PID=6905]
+2025-08-26 20:40:39,813  INFO     a0086e2e843d4d5e  1       indico.rh                 GET /user/dashboard/ [IP=127.0.0.1] [PID=6905]
+2025-08-26 20:40:49,833  INFO     5a69bffc398a4bcf  1       indico.rh                 GET /user/dashboard/ [IP=127.0.0.1] [PID=6905]
+2025-08-26 20:41:29,260  INFO     a79f744cb4b041fc  1       indico.rh                 GET /user/dashboard/ [IP=127.0.0.1] [PID=6905]
+2025-08-26 20:41:32,692  INFO     208fddba60c1494b  1       indico.rh                 POST /api/sign-url [IP=127.0.0.1] [PID=6905]
+2025-08-26 20:41:32,703  INFO     208fddba60c1494b  1       indico.url_signing        <User(1, recanos@yandex.ru): "Recanos Karp"> signed URL for endpoint 'users.export_dashboard_ics' with params {'include': 'linked'}
+2025-08-26 20:41:40,539  INFO     ba1891a77ebf4f17  1       indico.rh                 GET /user/profile/ [IP=127.0.0.1] [PID=10238]
+2025-08-26 20:42:22,479  INFO     a8c50deefab041b8  1       indico.rh                 GET /user/dashboard/ [IP=127.0.0.1] [PID=10328]
+2025-08-26 20:42:43,441  INFO     ebbc226b05884562  1       indico.rh                 POST /api/sign-url [IP=127.0.0.1] [PID=10328]
+2025-08-26 20:42:43,449  INFO     ebbc226b05884562  1       indico.url_signing        <User(1, recanos@yandex.ru): "Recanos Karp"> signed URL for endpoint 'users.export_dashboard_ics' with params {'include': 'linked'}
+2025-08-26 20:42:52,645  INFO     2af3fe1206974041  1       indico.rh                 GET /user/preferences/ [IP=127.0.0.1] [PID=10328]
+2025-08-26 20:43:33,037  INFO     bb1f8e6104024790  1       indico.rh                 GET /user/profile/ [IP=127.0.0.1] [PID=10328]
+2025-08-26 20:47:24,568  INFO     b757c4bceb6d4e32  1       indico.rh                 GET /user/profile/ [IP=127.0.0.1] [PID=10920]
+2025-08-26 20:47:59,771  INFO     f9ab86da061d4d6a  1       indico.rh                 PATCH /user/profile/ [IP=127.0.0.1] [PID=10920]
+2025-08-26 20:47:59,782  INFO     f9ab86da061d4d6a  1       indico.users              Profile of user <User(1, recanos@yandex.ru): "Recanos Karp"> updated by <User(1, recanos@yandex.ru): "Recanos Karp">: {'affiliation': 'Студент', 'affiliation_link': None}
+2025-08-26 20:47:59,869  INFO     5c3153e528134dcd  1       indico.rh                 GET /user/profile/ [IP=127.0.0.1] [PID=10920]
+2025-08-26 20:48:19,812  INFO     2f3ffd6cd8a54b2a  1       indico.rh                 GET / [IP=127.0.0.1] [PID=10920]
+2025-08-26 20:48:22,708  INFO     c6c02e25aabd47a3  1       indico.rh                 GET /event/3/ [IP=127.0.0.1] [PID=10920]
+2025-08-26 20:48:26,975  INFO     f259e59bbc5b4c96  1       indico.rh                 GET /event/3/contributions/mine [IP=127.0.0.1] [PID=10920]
+2025-08-26 20:48:35,718  INFO     c867a5ee3d104466  1       indico.rh                 GET /event/3/manage/ [IP=127.0.0.1] [PID=10920]
+2025-08-26 20:48:38,670  INFO     4ec927dc6fb547a9  1       indico.rh                 GET /event/3/manage/contributions/ [IP=127.0.0.1] [PID=10920]
+2025-08-26 20:48:39,141  INFO     80293d6d2fb34fb1  1       indico.rh                 GET /event/3/manage/contributions/published [IP=127.0.0.1] [PID=10920]
+2025-08-26 20:48:44,860  INFO     533e30ece5484b77  1       indico.rh                 GET /event/3/manage/clone?_=1756230519006 [IP=127.0.0.1] [PID=10920]
+2025-08-26 20:48:48,461  INFO     8343b222c7af4edd  1       indico.rh                 GET /event/3/manage/contributions/create?_=1756230519007 [IP=127.0.0.1] [PID=10920]
+2025-08-26 20:48:48,633  INFO     536de4162a604e18  1       indico.rh                 GET /user/api/favorites/users [IP=127.0.0.1] [PID=10920]
+2025-08-26 20:49:07,439  INFO     5db3f492ff1b4c49  1       indico.rh                 GET /user/search/info [IP=127.0.0.1] [PID=10920]
+2025-08-26 20:49:51,050  INFO     a629d1d4abf74d5a  1       indico.rh                 POST /event/3/manage/contributions/create [IP=127.0.0.1] [PID=10920]
+2025-08-26 20:49:51,155  INFO     a629d1d4abf74d5a  1       indico.events.contributions Contribution <Contribution(2): "Хуй пизда"> created by <User(1, recanos@yandex.ru): "Recanos Karp">
+2025-08-26 20:52:05,775  INFO     7ea370d46bea4c77  1       indico.rh                 GET / [IP=127.0.0.1] [PID=11936]
+2025-08-26 20:52:20,007  INFO     25f2fae19ec148b6  1       indico.rh                 GET / [IP=127.0.0.1] [PID=11936]
+2025-08-26 20:52:23,864  INFO     cf250e5aabfe4f95  1       indico.rh                 GET /event/3/ [IP=127.0.0.1] [PID=11936]
+2025-08-26 20:52:30,321  INFO     d9b94dc13a4a45e8  1       indico.rh                 GET /event/3/manage/contributions/ [IP=127.0.0.1] [PID=11936]
+2025-08-26 20:52:31,032  INFO     0caa588a2c0b4a9f  1       indico.rh                 GET /event/3/manage/contributions/published [IP=127.0.0.1] [PID=11936]
+2025-08-26 21:00:06,171  INFO     c2123af3a19d4ad9  1       indico.rh                 GET /event/3/manage/contributions/ [IP=127.0.0.1] [PID=13155]
+2025-08-26 21:00:07,419  INFO     6daaef2e368744eb  1       indico.rh                 GET /event/3/manage/contributions/published [IP=127.0.0.1] [PID=13155]
+2025-08-26 21:00:40,150  INFO     5b65b49ac5f64b25  1       indico.rh                 GET /event/3/manage/logs/ [IP=127.0.0.1] [PID=13155]
+2025-08-26 21:00:40,686  INFO     ec2e8061c3e04dd3  1       indico.rh                 GET /event/3/manage/logs/api/logs?page=1&filters=emails&filters=event&filters=management&filters=participants&filters=reviewing [IP=127.0.0.1] [PID=13155]
+2025-08-26 21:02:16,888  INFO     df225060deaf45f3  1       indico.rh                 GET /event/3/ [IP=127.0.0.1] [PID=13155]
+2025-08-26 21:02:30,307  INFO     513c724452c74f2e  1       indico.rh                 GET /event/3/contributions/mine [IP=127.0.0.1] [PID=13155]
+2025-08-26 21:02:38,018  INFO     f5fb766d1d1542cd  1       indico.rh                 GET /event/3/contributions/1/ [IP=127.0.0.1] [PID=13155]
+2025-08-26 21:02:46,064  INFO     6c4aff1b616d4851  1       indico.rh                 GET /event/3/contributions/mine [IP=127.0.0.1] [PID=13155]
+2025-08-26 21:02:48,152  INFO     27296884b0154aa5  1       indico.rh                 GET /event/3/contributions/1/ [IP=127.0.0.1] [PID=13155]
+2025-08-26 21:03:13,118  INFO     66bedad698af4c4e  1       indico.rh                 GET /event/3/contributions/mine [IP=127.0.0.1] [PID=13155]
+2025-08-26 21:03:15,445  INFO     8d03f88b8fc247f8  1       indico.rh                 GET /event/3/manage/ [IP=127.0.0.1] [PID=13155]
+2025-08-26 21:03:31,739  INFO     b5b0874d06fc4475  1       indico.rh                 GET /event/3/manage/ [IP=127.0.0.1] [PID=13155]
+2025-08-26 21:03:49,139  INFO     f5acace3684540d5  1       indico.rh                 GET /event/3/manage/contributions/ [IP=127.0.0.1] [PID=13155]
+2025-08-26 21:03:49,818  INFO     b99aa8767cb146ff  1       indico.rh                 GET /event/3/manage/contributions/published [IP=127.0.0.1] [PID=13155]
+2025-08-26 21:04:11,154  INFO     d3a29e7698614ef1  1       indico.rh                 GET /event/3/manage/contributions/customize?_=1756231429556 [IP=127.0.0.1] [PID=13155]
+2025-08-26 21:08:49,895  INFO     c3be14226488457a  1       indico.rh                 GET / [IP=127.0.0.1] [PID=14948]
+2025-08-26 21:08:55,938  INFO     1b8d9c8903a54c7a  1       indico.rh                 GET /event/3/ [IP=127.0.0.1] [PID=14948]
+2025-08-26 21:09:02,546  INFO     68f0fa0378004540  1       indico.rh                 GET /event/3/contributions/mine [IP=127.0.0.1] [PID=14948]
+2025-08-26 21:09:05,255  INFO     e8d4ca7d61484a67  1       indico.rh                 GET /event/3/manage/ [IP=127.0.0.1] [PID=14948]
+2025-08-26 21:09:20,803  INFO     11e3f92928144d4b  1       indico.rh                 GET /event/3/manage/contributions/ [IP=127.0.0.1] [PID=14948]
+2025-08-26 21:09:21,554  INFO     e66859bb5d5740cf  1       indico.rh                 GET /event/3/manage/contributions/published [IP=127.0.0.1] [PID=14948]
+2025-08-26 21:22:24,234  INFO     af440dd9468e4eeb  1       indico.rh                 GET / [IP=127.0.0.1] [PID=17778]
+2025-08-26 21:22:29,106  INFO     bff2a404e1964af3  1       indico.rh                 GET /event/3/ [IP=127.0.0.1] [PID=17778]
+2025-08-26 21:22:33,435  INFO     6d245db533c94bc3  1       indico.rh                 GET /event/3/manage/ [IP=127.0.0.1] [PID=17778]
+2025-08-26 21:22:33,462  ERROR    6d245db533c94bc3  1       indico.flask              'str' object has no attribute 'user'
+Traceback (most recent call last):
+  File "/home/recanos/dev/indico/env/lib/python3.12/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/dev/indico/env/lib/python3.12/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/dev/indico/src/indico/web/flask/util.py", line 80, in wrapper
+    return obj().process()
+           ^^^^^^^^^^^^^^^
+  File "/home/recanos/dev/indico/src/indico/web/rh.py", line 312, in process
+    res = self._do_process()
+          ^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/dev/indico/src/indico/web/rh.py", line 280, in _do_process
+    rv = self._process()
+         ^^^^^^^^^^^^^^^
+  File "/home/recanos/dev/indico/src/indico/modules/events/management/controllers/settings.py", line 82, in _process
+    return WPEventSettings.render_template('settings.html', self.event, 'settings',
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/dev/indico/src/indico/web/views.py", line 129, in render_template
+    return cls(g.rh, *wp_args, **context).display()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/dev/indico/src/indico/web/views.py", line 263, in display
+    title_parts = [*self._extra_title_parts, self.title]
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/dev/indico/src/indico/modules/events/management/views.py", line 67, in _extra_title_parts
+    if menu_item := get_menu_item('event-management-sidemenu', self.active_menu_item, event=self.event):
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/dev/indico/src/indico/web/menu.py", line 169, in get_menu_item
+    return named_objects_from_signal(signals.menu.items.send(menu_id, **kwargs)).get(item)
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/dev/indico/env/lib/python3.12/site-packages/blinker/base.py", line 249, in send
+    result = receiver(sender, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/dev/indico/indico_exportdocs/__init__.py", line 8, in _extend_event_management_menu
+    if not event.can_manage(sender.user):
+                            ^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'user'
+2025-08-26 21:22:39,705  INFO     b8400d043b254dfe  1       indico.rh                 GET /event/3/contributions/mine [IP=127.0.0.1] [PID=17778]
+2025-08-26 21:22:44,681  INFO     17a796cf6d724755  1       indico.rh                 GET /event/3/contributions/1/ [IP=127.0.0.1] [PID=17778]
+2025-08-26 21:22:49,791  INFO     9588ce8c14ce4a69  1       indico.rh                 GET /event/3/manage/ [IP=127.0.0.1] [PID=17778]
+2025-08-26 21:22:49,815  ERROR    9588ce8c14ce4a69  1       indico.flask              'str' object has no attribute 'user'
+Traceback (most recent call last):
+  File "/home/recanos/dev/indico/env/lib/python3.12/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/dev/indico/env/lib/python3.12/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/dev/indico/src/indico/web/flask/util.py", line 80, in wrapper
+    return obj().process()
+           ^^^^^^^^^^^^^^^
+  File "/home/recanos/dev/indico/src/indico/web/rh.py", line 312, in process
+    res = self._do_process()
+          ^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/dev/indico/src/indico/web/rh.py", line 280, in _do_process
+    rv = self._process()
+         ^^^^^^^^^^^^^^^
+  File "/home/recanos/dev/indico/src/indico/modules/events/management/controllers/settings.py", line 82, in _process
+    return WPEventSettings.render_template('settings.html', self.event, 'settings',
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/dev/indico/src/indico/web/views.py", line 129, in render_template
+    return cls(g.rh, *wp_args, **context).display()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/dev/indico/src/indico/web/views.py", line 263, in display
+    title_parts = [*self._extra_title_parts, self.title]
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/dev/indico/src/indico/modules/events/management/views.py", line 67, in _extra_title_parts
+    if menu_item := get_menu_item('event-management-sidemenu', self.active_menu_item, event=self.event):
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/dev/indico/src/indico/web/menu.py", line 169, in get_menu_item
+    return named_objects_from_signal(signals.menu.items.send(menu_id, **kwargs)).get(item)
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/dev/indico/env/lib/python3.12/site-packages/blinker/base.py", line 249, in send
+    result = receiver(sender, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/dev/indico/indico_exportdocs/__init__.py", line 8, in _extend_event_management_menu
+    if not event.can_manage(sender.user):
+                            ^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'user'
+2025-08-26 21:24:38,430  INFO     864bfc56c6514fc6  1       indico.rh                 GET / [IP=127.0.0.1] [PID=18427]
+2025-08-26 21:24:43,085  INFO     5531f1ed32874c08  1       indico.rh                 GET /event/3/ [IP=127.0.0.1] [PID=18427]
+2025-08-26 21:24:46,508  INFO     c92067f6b3f04452  1       indico.rh                 GET /event/3/manage/ [IP=127.0.0.1] [PID=18427]
+2025-08-26 21:24:52,997  INFO     3b6905ba539d43cd  1       indico.rh                 GET /event/3/manage/export [IP=127.0.0.1] [PID=18427]
+2025-08-26 21:24:53,012  ERROR    3b6905ba539d43cd  1       indico.flask              exportdocs/buttons.html
+Traceback (most recent call last):
+  File "/home/recanos/dev/indico/src/indico/web/flask/templating.py", line 256, in get_source
+    rv = self.fs_loader.get_source(environment, path)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/dev/indico/env/lib/python3.12/site-packages/jinja2/loaders.py", line 209, in get_source
+    raise TemplateNotFound(
+jinja2.exceptions.TemplateNotFound: 'core/exportdocs/buttons.html' not found in search paths: 
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/recanos/dev/indico/env/lib/python3.12/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/dev/indico/env/lib/python3.12/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/dev/indico/env/lib/python3.12/site-packages/flask_pluginengine/util.py", line 190, in wrapped
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/dev/indico/src/indico/web/flask/util.py", line 80, in wrapper
+    return obj().process()
+           ^^^^^^^^^^^^^^^
+  File "/home/recanos/dev/indico/src/indico/web/rh.py", line 312, in process
+    res = self._do_process()
+          ^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/dev/indico/src/indico/web/rh.py", line 280, in _do_process
+    rv = self._process()
+         ^^^^^^^^^^^^^^^
+  File "/home/recanos/dev/indico/indico_exportdocs/controllers.py", line 33, in _process
+    return WPEventManagement.render_template('exportdocs/buttons.html', self.event)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/dev/indico/src/indico/web/views.py", line 129, in render_template
+    return cls(g.rh, *wp_args, **context).display()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/dev/indico/src/indico/web/views.py", line 276, in display
+    body = self._display(params)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/dev/indico/src/indico/web/views.py", line 366, in _display
+    return self._apply_decoration(self._get_body(params | self._kwargs))
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/dev/indico/src/indico/modules/events/management/views.py", line 59, in _get_body
+    return self._get_page_content(params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/dev/indico/src/indico/web/views.py", line 159, in _get_page_content
+    return self.render_template_func(template, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/dev/indico/env/lib/python3.12/site-packages/flask/templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/dev/indico/env/lib/python3.12/site-packages/jinja2/environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/dev/indico/env/lib/python3.12/site-packages/jinja2/environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/dev/indico/env/lib/python3.12/site-packages/jinja2/environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/dev/indico/src/indico/web/flask/templating.py", line 265, in load
+    tpl = super().load(environment, name, globals)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/dev/indico/env/lib/python3.12/site-packages/jinja2/loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/dev/indico/src/indico/web/flask/templating.py", line 261, in get_source
+    return self._get_fallback(environment, template, path)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/dev/indico/src/indico/web/flask/templating.py", line 236, in _get_fallback
+    rv = self.fallback_loader.get_source(environment, template)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/dev/indico/env/lib/python3.12/site-packages/jinja2/loaders.py", line 593, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: exportdocs/buttons.html
+2025-08-26 21:45:13,609  INFO     f7f5e7a0b3664c13  1       indico.rh                 GET / [IP=127.0.0.1] [PID=20681]
+2025-08-26 21:45:54,523  INFO     c150b687814d4b81  1       indico.rh                 GET / [IP=127.0.0.1] [PID=21013]
+2025-08-26 21:46:00,621  INFO     1d5f009a99a74f05  1       indico.rh                 GET /event/3/ [IP=127.0.0.1] [PID=21013]
+2025-08-26 21:46:03,329  INFO     ca3c59dc2e7942ce  1       indico.rh                 GET /event/3/manage/ [IP=127.0.0.1] [PID=21013]
+2025-08-26 21:46:07,328  INFO     78c64f3178a54452  1       indico.rh                 GET /event/3/manage/export [IP=127.0.0.1] [PID=21013]
+2025-08-26 21:46:07,348  ERROR    78c64f3178a54452  1       indico.flask              templates/exportdocs/buttons.html
+Traceback (most recent call last):
+  File "/home/recanos/dev/indico/src/indico/web/flask/templating.py", line 256, in get_source
+    rv = self.fs_loader.get_source(environment, path)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/dev/indico/env/lib/python3.12/site-packages/jinja2/loaders.py", line 209, in get_source
+    raise TemplateNotFound(
+jinja2.exceptions.TemplateNotFound: 'core/templates/exportdocs/buttons.html' not found in search paths: 
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/recanos/dev/indico/env/lib/python3.12/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/dev/indico/env/lib/python3.12/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/dev/indico/env/lib/python3.12/site-packages/flask_pluginengine/util.py", line 190, in wrapped
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/dev/indico/src/indico/web/flask/util.py", line 80, in wrapper
+    return obj().process()
+           ^^^^^^^^^^^^^^^
+  File "/home/recanos/dev/indico/src/indico/web/rh.py", line 312, in process
+    res = self._do_process()
+          ^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/dev/indico/src/indico/web/rh.py", line 280, in _do_process
+    rv = self._process()
+         ^^^^^^^^^^^^^^^
+  File "/home/recanos/dev/indico/indico_exportdocs/controllers.py", line 33, in _process
+    return WPEventManagement.render_template('templates/exportdocs/buttons.html', self.event)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/dev/indico/src/indico/web/views.py", line 129, in render_template
+    return cls(g.rh, *wp_args, **context).display()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/dev/indico/src/indico/web/views.py", line 276, in display
+    body = self._display(params)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/dev/indico/src/indico/web/views.py", line 366, in _display
+    return self._apply_decoration(self._get_body(params | self._kwargs))
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/dev/indico/src/indico/modules/events/management/views.py", line 59, in _get_body
+    return self._get_page_content(params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/dev/indico/src/indico/web/views.py", line 159, in _get_page_content
+    return self.render_template_func(template, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/dev/indico/env/lib/python3.12/site-packages/flask/templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/dev/indico/env/lib/python3.12/site-packages/jinja2/environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/dev/indico/env/lib/python3.12/site-packages/jinja2/environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/dev/indico/env/lib/python3.12/site-packages/jinja2/environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/dev/indico/src/indico/web/flask/templating.py", line 265, in load
+    tpl = super().load(environment, name, globals)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/dev/indico/env/lib/python3.12/site-packages/jinja2/loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/dev/indico/src/indico/web/flask/templating.py", line 261, in get_source
+    return self._get_fallback(environment, template, path)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/dev/indico/src/indico/web/flask/templating.py", line 236, in _get_fallback
+    rv = self.fallback_loader.get_source(environment, template)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/dev/indico/env/lib/python3.12/site-packages/jinja2/loaders.py", line 593, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: templates/exportdocs/buttons.html
+2025-08-26 21:48:02,208  INFO     3da971d3478e4e0c  1       indico.rh                 GET / [IP=127.0.0.1] [PID=21626]
+2025-08-26 21:48:08,285  INFO     265160512d794c60  1       indico.rh                 GET /event/3/ [IP=127.0.0.1] [PID=21626]
+2025-08-26 21:48:11,292  INFO     c558d2a5c3124f5d  1       indico.rh                 GET /event/3/manage/ [IP=127.0.0.1] [PID=21626]
+2025-08-26 21:48:16,420  INFO     cf0a47be13e44acb  1       indico.rh                 GET /event/3/manage/export [IP=127.0.0.1] [PID=21626]
+2025-08-26 21:48:16,440  ERROR    cf0a47be13e44acb  1       indico.flask              templates/exportdocs/buttons.html
+Traceback (most recent call last):
+  File "/home/recanos/dev/indico/src/indico/web/flask/templating.py", line 256, in get_source
+    rv = self.fs_loader.get_source(environment, path)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/dev/indico/env/lib/python3.12/site-packages/jinja2/loaders.py", line 209, in get_source
+    raise TemplateNotFound(
+jinja2.exceptions.TemplateNotFound: 'core/templates/exportdocs/buttons.html' not found in search paths: 
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/recanos/dev/indico/env/lib/python3.12/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/dev/indico/env/lib/python3.12/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/dev/indico/env/lib/python3.12/site-packages/flask_pluginengine/util.py", line 190, in wrapped
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/dev/indico/src/indico/web/flask/util.py", line 80, in wrapper
+    return obj().process()
+           ^^^^^^^^^^^^^^^
+  File "/home/recanos/dev/indico/src/indico/web/rh.py", line 312, in process
+    res = self._do_process()
+          ^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/dev/indico/src/indico/web/rh.py", line 280, in _do_process
+    rv = self._process()
+         ^^^^^^^^^^^^^^^
+  File "/home/recanos/dev/indico/indico_exportdocs/controllers.py", line 33, in _process
+    return WPEventManagement.render_template('templates/exportdocs/buttons.html', self.event)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/dev/indico/src/indico/web/views.py", line 129, in render_template
+    return cls(g.rh, *wp_args, **context).display()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/dev/indico/src/indico/web/views.py", line 276, in display
+    body = self._display(params)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/dev/indico/src/indico/web/views.py", line 366, in _display
+    return self._apply_decoration(self._get_body(params | self._kwargs))
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/dev/indico/src/indico/modules/events/management/views.py", line 59, in _get_body
+    return self._get_page_content(params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/dev/indico/src/indico/web/views.py", line 159, in _get_page_content
+    return self.render_template_func(template, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/dev/indico/env/lib/python3.12/site-packages/flask/templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/dev/indico/env/lib/python3.12/site-packages/jinja2/environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/dev/indico/env/lib/python3.12/site-packages/jinja2/environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/dev/indico/env/lib/python3.12/site-packages/jinja2/environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/dev/indico/src/indico/web/flask/templating.py", line 265, in load
+    tpl = super().load(environment, name, globals)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/dev/indico/env/lib/python3.12/site-packages/jinja2/loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/dev/indico/src/indico/web/flask/templating.py", line 261, in get_source
+    return self._get_fallback(environment, template, path)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/dev/indico/src/indico/web/flask/templating.py", line 236, in _get_fallback
+    rv = self.fallback_loader.get_source(environment, template)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/dev/indico/env/lib/python3.12/site-packages/jinja2/loaders.py", line 593, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: templates/exportdocs/buttons.html
+2025-08-26 21:49:52,343  INFO     9422669b84d94984  1       indico.rh                 GET / [IP=127.0.0.1] [PID=22291]
+2025-08-26 21:49:56,311  INFO     b1b6fadff491420d  1       indico.rh                 GET /event/3/ [IP=127.0.0.1] [PID=22291]
+2025-08-26 21:49:59,674  INFO     ac81d84181094513  1       indico.rh                 GET /event/3/manage/ [IP=127.0.0.1] [PID=22291]
+2025-08-26 21:50:03,854  INFO     32c0a9159de54332  1       indico.rh                 GET /event/3/manage/export [IP=127.0.0.1] [PID=22291]
+2025-08-26 21:50:03,872  ERROR    32c0a9159de54332  1       indico.flask              buttons.html
+Traceback (most recent call last):
+  File "/home/recanos/dev/indico/src/indico/web/flask/templating.py", line 256, in get_source
+    rv = self.fs_loader.get_source(environment, path)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/dev/indico/env/lib/python3.12/site-packages/jinja2/loaders.py", line 209, in get_source
+    raise TemplateNotFound(
+jinja2.exceptions.TemplateNotFound: 'core/buttons.html' not found in search paths: 
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/recanos/dev/indico/env/lib/python3.12/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/dev/indico/env/lib/python3.12/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/dev/indico/env/lib/python3.12/site-packages/flask_pluginengine/util.py", line 190, in wrapped
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/dev/indico/src/indico/web/flask/util.py", line 80, in wrapper
+    return obj().process()
+           ^^^^^^^^^^^^^^^
+  File "/home/recanos/dev/indico/src/indico/web/rh.py", line 312, in process
+    res = self._do_process()
+          ^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/dev/indico/src/indico/web/rh.py", line 280, in _do_process
+    rv = self._process()
+         ^^^^^^^^^^^^^^^
+  File "/home/recanos/dev/indico/indico_exportdocs/controllers.py", line 33, in _process
+    return WPEventManagement.render_template('buttons.html', self.event)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/dev/indico/src/indico/web/views.py", line 129, in render_template
+    return cls(g.rh, *wp_args, **context).display()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/dev/indico/src/indico/web/views.py", line 276, in display
+    body = self._display(params)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/dev/indico/src/indico/web/views.py", line 366, in _display
+    return self._apply_decoration(self._get_body(params | self._kwargs))
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/dev/indico/src/indico/modules/events/management/views.py", line 59, in _get_body
+    return self._get_page_content(params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/dev/indico/src/indico/web/views.py", line 159, in _get_page_content
+    return self.render_template_func(template, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/dev/indico/env/lib/python3.12/site-packages/flask/templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/dev/indico/env/lib/python3.12/site-packages/jinja2/environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/dev/indico/env/lib/python3.12/site-packages/jinja2/environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/dev/indico/env/lib/python3.12/site-packages/jinja2/environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/dev/indico/src/indico/web/flask/templating.py", line 265, in load
+    tpl = super().load(environment, name, globals)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/dev/indico/env/lib/python3.12/site-packages/jinja2/loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/dev/indico/src/indico/web/flask/templating.py", line 261, in get_source
+    return self._get_fallback(environment, template, path)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/dev/indico/src/indico/web/flask/templating.py", line 236, in _get_fallback
+    rv = self.fallback_loader.get_source(environment, template)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/dev/indico/env/lib/python3.12/site-packages/jinja2/loaders.py", line 593, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: buttons.html
+2025-08-26 21:54:45,873  INFO     ae3158ec820d46af  1       indico.rh                 GET / [IP=127.0.0.1] [PID=23264]
+2025-08-26 21:54:52,477  INFO     1105596f990f4957  1       indico.rh                 GET /event/3/ [IP=127.0.0.1] [PID=23264]
+2025-08-26 21:54:55,160  INFO     10af4973465a4141  1       indico.rh                 GET /event/3/manage/ [IP=127.0.0.1] [PID=23264]
+2025-08-26 21:54:57,806  INFO     1d176cd2474742eb  1       indico.rh                 GET /event/3/manage/export [IP=127.0.0.1] [PID=23264]
+2025-08-26 21:54:57,826  ERROR    1d176cd2474742eb  1       indico.flask              exportdocs/buttons.html
+Traceback (most recent call last):
+  File "/home/recanos/dev/indico/src/indico/web/flask/templating.py", line 256, in get_source
+    rv = self.fs_loader.get_source(environment, path)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/dev/indico/env/lib/python3.12/site-packages/jinja2/loaders.py", line 209, in get_source
+    raise TemplateNotFound(
+jinja2.exceptions.TemplateNotFound: 'core/exportdocs/buttons.html' not found in search paths: 
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/recanos/dev/indico/env/lib/python3.12/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/dev/indico/env/lib/python3.12/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/dev/indico/env/lib/python3.12/site-packages/flask_pluginengine/util.py", line 190, in wrapped
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/dev/indico/src/indico/web/flask/util.py", line 80, in wrapper
+    return obj().process()
+           ^^^^^^^^^^^^^^^
+  File "/home/recanos/dev/indico/src/indico/web/rh.py", line 312, in process
+    res = self._do_process()
+          ^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/dev/indico/src/indico/web/rh.py", line 280, in _do_process
+    rv = self._process()
+         ^^^^^^^^^^^^^^^
+  File "/home/recanos/dev/indico/indico_exportdocs/controllers.py", line 33, in _process
+    return WPEventManagement.render_template('exportdocs/buttons.html', self.event)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/dev/indico/src/indico/web/views.py", line 129, in render_template
+    return cls(g.rh, *wp_args, **context).display()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/dev/indico/src/indico/web/views.py", line 276, in display
+    body = self._display(params)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/dev/indico/src/indico/web/views.py", line 366, in _display
+    return self._apply_decoration(self._get_body(params | self._kwargs))
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/dev/indico/src/indico/modules/events/management/views.py", line 59, in _get_body
+    return self._get_page_content(params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/dev/indico/src/indico/web/views.py", line 159, in _get_page_content
+    return self.render_template_func(template, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/dev/indico/env/lib/python3.12/site-packages/flask/templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/dev/indico/env/lib/python3.12/site-packages/jinja2/environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/dev/indico/env/lib/python3.12/site-packages/jinja2/environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/dev/indico/env/lib/python3.12/site-packages/jinja2/environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/dev/indico/src/indico/web/flask/templating.py", line 265, in load
+    tpl = super().load(environment, name, globals)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/dev/indico/env/lib/python3.12/site-packages/jinja2/loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/dev/indico/src/indico/web/flask/templating.py", line 261, in get_source
+    return self._get_fallback(environment, template, path)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/dev/indico/src/indico/web/flask/templating.py", line 236, in _get_fallback
+    rv = self.fallback_loader.get_source(environment, template)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/dev/indico/env/lib/python3.12/site-packages/jinja2/loaders.py", line 593, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: exportdocs/buttons.html
+2025-08-27 20:29:11,916  INFO     51873abe7d174c51  1       indico.rh                 GET /event/3/manage/ [IP=127.0.0.1] [PID=26788]
+2025-08-27 20:29:24,223  INFO     ce42c671e4de415c  1       indico.rh                 GET /event/3/manage/export [IP=127.0.0.1] [PID=26788]
+2025-08-27 20:31:26,171  INFO     42512cdda1e44f8e  1       indico.rh                 GET /event/3/manage/export [IP=127.0.0.1] [PID=26788]
+2025-08-27 20:32:04,568  INFO     59569c47cacd46ab  1       indico.rh                 GET /event/3/manage/ [IP=127.0.0.1] [PID=26788]
+2025-08-27 20:44:05,730  INFO     913c54d0d0e840be  1       indico.rh                 GET /event/3/manage/ [IP=127.0.0.1] [PID=29668]
+2025-08-27 20:44:12,389  INFO     6b4121c9d6b4416f  1       indico.rh                 GET /event/3/manage/export [IP=127.0.0.1] [PID=29668]
+2025-08-27 20:48:20,539  INFO     17fa7c30273d4dd8  1       indico.rh                 GET /event/3/manage/contributions/ [IP=127.0.0.1] [PID=29668]
+2025-08-27 20:48:22,939  INFO     732ac2e121444cef  1       indico.rh                 GET /event/3/manage/contributions/published [IP=127.0.0.1] [PID=29668]
+2025-08-27 20:48:49,232  INFO     75131090105046bf  1       indico.rh                 GET /event/3/manage/papers/ [IP=127.0.0.1] [PID=29668]
+2025-08-27 20:49:03,141  INFO     4053e332eb0a4e9b  1       indico.rh                 GET /user/dashboard/ [IP=127.0.0.1] [PID=29668]
+2025-08-27 20:49:06,998  INFO     4313772b0d2e4e68  1       indico.rh                 GET /user/profile/ [IP=127.0.0.1] [PID=29668]
+2025-08-27 20:49:11,876  INFO     0f071f906a5245ae  1       indico.rh                 GET /user/dashboard/ [IP=127.0.0.1] [PID=29668]
+2025-08-27 20:49:23,239  INFO     35546cf2996d4b08  1       indico.rh                 GET /user/dashboard/ [IP=127.0.0.1] [PID=29668]
+2025-08-27 20:49:25,592  INFO     d355f72240a74506  1       indico.rh                 GET /user/profile/ [IP=127.0.0.1] [PID=29668]
+2025-08-27 20:49:28,231  INFO     003a5e28121f42f9  1       indico.rh                 GET /user/dashboard/ [IP=127.0.0.1] [PID=29668]
+2025-08-27 20:49:30,573  INFO     532cdaa810f64ed3  1       indico.rh                 GET /user/profile/ [IP=127.0.0.1] [PID=29668]
+2025-08-27 20:49:32,127  INFO     89e9c717b8e141ee  1       indico.rh                 GET /user/profile/picture [IP=127.0.0.1] [PID=29668]
+2025-08-27 20:49:32,875  INFO     700fe9ac163441ee  1       indico.rh                 GET /user/profile/picture/preview/standard [IP=127.0.0.1] [PID=29668]
+2025-08-27 20:49:32,879  INFO     ca4fdee3540d45aa  1       indico.rh                 GET /user/profile/picture/preview/gravatar [IP=127.0.0.1] [PID=29668]
+2025-08-27 20:49:32,904  INFO     26def8b3a72242f2  1       indico.rh                 GET /user/profile/picture/preview/identicon [IP=127.0.0.1] [PID=29668]
+2025-08-27 20:49:34,849  INFO     52e76f6bcf0c4565  1       indico.rh                 GET /user/preferences/ [IP=127.0.0.1] [PID=29668]
+2025-08-27 20:49:53,704  INFO     77d7ce39693a4761  1       indico.rh                 GET /user/preferences/ [IP=127.0.0.1] [PID=29668]
+2025-08-27 20:49:58,298  INFO     9323b0e7aa8240ee  1       indico.rh                 POST /user/preferences/ [IP=127.0.0.1] [PID=29668]
+2025-08-27 20:49:58,488  INFO     d2bef81913b2407f  1       indico.rh                 GET /user/preferences/ [IP=127.0.0.1] [PID=29668]
+2025-08-27 20:50:04,832  INFO     5863c3cd18a64eaa  1       indico.rh                 GET /user/preferences/ [IP=127.0.0.1] [PID=29668]
+2025-08-27 20:50:35,434  INFO     99bad5be87d043ac  1       indico.rh                 GET /event/3/manage/papers/ [IP=127.0.0.1] [PID=29668]
+2025-08-27 20:50:42,427  INFO     056f90e97c974653  1       indico.rh                 PUT /event/3/manage/features/papers [IP=127.0.0.1] [PID=29668]
+2025-08-27 20:50:42,482  INFO     056f90e97c974653  1       indico.events.features    Feature 'papers' for event <Event(3, 2025-08-27 06:00:00+00:00, 2025-08-28 08:00:00+00:00): "Тестовый ивент"> enabled by <User(1, recanos@yandex.ru): "Recanos Karp">
+2025-08-27 20:50:42,641  INFO     27de3ec6ad7547d1  1       indico.rh                 GET /event/3/manage/papers/ [IP=127.0.0.1] [PID=29668]
+2025-08-27 20:51:15,773  INFO     048816cc2d6e4ce8  1       indico.rh                 POST /event/3/manage/papers/open [IP=127.0.0.1] [PID=29668]
+2025-08-27 20:51:15,805  INFO     048816cc2d6e4ce8  1       indico.events.papers      Call for papers for <Event(3, 2025-08-27 06:00:00+00:00, 2025-08-28 08:00:00+00:00): "Тестовый ивент"> opened by <User(1, recanos@yandex.ru): "Recanos Karp">
+2025-08-27 20:51:47,032  INFO     62036fba19ff4e47  1       indico.rh                 GET /event/3/manage/abstracts/ [IP=127.0.0.1] [PID=29668]
+2025-08-27 20:51:51,701  INFO     079d7fc73b504c23  1       indico.rh                 GET /event/3/manage/papers/ [IP=127.0.0.1] [PID=29668]
+2025-08-27 20:52:39,717  INFO     7767f97f1dd84519  1       indico.rh                 GET /event/3/manage/ [IP=127.0.0.1] [PID=29668]
+2025-08-27 20:53:09,385  INFO     6780740e11984aef  1       indico.rh                 GET /event/3/ [IP=127.0.0.1] [PID=29668]
+2025-08-27 20:53:18,070  INFO     e47c61e6aae04c90  1       indico.rh                 GET /event/3/papers/ [IP=127.0.0.1] [PID=29668]
+2025-08-27 20:53:30,900  INFO     0b7f7300d2864eef  1       indico.rh                 GET /event/3/papers/select-contribution?_=1756317198710 [IP=127.0.0.1] [PID=29668]
+2025-08-27 20:53:34,157  INFO     2e6b715e18f244a0  1       indico.rh                 GET /event/3/contributions/1/paper/submit?_=1756317198711 [IP=127.0.0.1] [PID=29668]
+2025-08-27 20:55:46,840  INFO     ee17d964fb394add  1       indico.rh                 POST /event/3/contributions/1/paper/submit?_=1756317198711 [IP=127.0.0.1] [PID=29668]
+2025-08-27 20:55:47,051  INFO     ee17d964fb394add  1       indico.events.papers      Paper revision <PaperRevision(1, 1, state=submitted)> submitted by <User(1, recanos@yandex.ru): "Recanos Karp">
+2025-08-27 20:55:47,131  INFO     a2112b6ca2a442ca  1       indico.rh                 GET /event/3/papers/1/ [IP=127.0.0.1] [PID=29668]
+2025-08-27 20:55:48,364  INFO     dfcd53aea49d471f  1       indico.rh                 GET /event/3/papers/api/1 [IP=127.0.0.1] [PID=29668]
+2025-08-27 20:56:51,397  INFO     4cab8af9211b4923  1       indico.rh                 POST /event/3/papers/api/1/judge [IP=127.0.0.1] [PID=29668]
+2025-08-27 20:56:51,510  INFO     4cab8af9211b4923  1       indico.events.papers      Paper <Paper(contribution_id=1, state=accepted)> was judged by <User(1, recanos@yandex.ru): "Recanos Karp"> to Accept
+2025-08-27 20:56:51,589  ERROR    4cab8af9211b4923  1       indico.emails             Flushing queued email "[Indico] Paper assessment" failed; stored data in /home/recanos/dev/indico/data/tmp/failed-email-2025-08-27-zqp2_is7
+Traceback (most recent call last):
+  File "/home/recanos/dev/indico/src/indico/core/notifications.py", line 112, in flush_email_queue
+    fn(email, log_entry)
+  File "/home/recanos/dev/indico/src/indico/core/emails.py", line 110, in do_send_email
+    with get_connection() as conn:
+  File "/home/recanos/dev/indico/src/indico/vendor/django_mail/backends/base.py", line 61, in __enter__
+    self.open()
+  File "/home/recanos/dev/indico/src/indico/vendor/django_mail/backends/smtp.py", line 115, in open
+    self.connection = self.connection_class(
+                      ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/.pyenv/versions/3.12.2/lib/python3.12/smtplib.py", line 255, in __init__
+    (code, msg) = self.connect(host, port)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/.pyenv/versions/3.12.2/lib/python3.12/smtplib.py", line 341, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/.pyenv/versions/3.12.2/lib/python3.12/smtplib.py", line 312, in _get_socket
+    return socket.create_connection((host, port), timeout,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/.pyenv/versions/3.12.2/lib/python3.12/socket.py", line 828, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/.pyenv/versions/3.12.2/lib/python3.12/socket.py", line 963, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno -2] Name or service not known
+2025-08-27 20:56:56,791  INFO     28e103b8643c4ac8  1       indico.rh                 GET /event/3/papers/api/1 [IP=127.0.0.1] [PID=29668]
+2025-08-27 20:57:01,346  INFO     644e335e17d54c2e  1       indico.rh                 GET /event/3/manage/ [IP=127.0.0.1] [PID=29668]
+2025-08-27 20:57:08,156  INFO     2bd6ce25365f456d  1       indico.rh                 GET /event/3/manage/export [IP=127.0.0.1] [PID=29668]
+2025-08-27 20:57:33,372  INFO     c13967348ace434f  1       indico.rh                 GET /event/3/ [IP=127.0.0.1] [PID=29668]
+2025-08-27 20:57:38,005  INFO     3615f81f61be4025  1       indico.rh                 GET /event/3/papers/ [IP=127.0.0.1] [PID=29668]
+2025-08-27 20:57:43,581  INFO     15f86a8a966f49c6  1       indico.rh                 GET /event/3/contributions/2/paper/submit?_=1756317458716 [IP=127.0.0.1] [PID=29668]
+2025-08-27 20:57:53,460  INFO     e46eae1387d84e4b  1       indico.rh                 POST /event/3/contributions/2/paper/submit?_=1756317458716 [IP=127.0.0.1] [PID=29668]
+2025-08-27 20:57:53,533  INFO     e46eae1387d84e4b  1       indico.events.papers      Paper revision <PaperRevision(2, 2, state=submitted)> submitted by <User(1, recanos@yandex.ru): "Recanos Karp">
+2025-08-27 20:57:53,612  INFO     707fafbd48784056  1       indico.rh                 GET /event/3/papers/2/ [IP=127.0.0.1] [PID=29668]
+2025-08-27 20:57:54,842  INFO     ecc0c56a6b6d46fc  1       indico.rh                 GET /event/3/papers/api/2 [IP=127.0.0.1] [PID=29668]
+2025-08-27 20:58:07,611  INFO     6a5f2811121949c1  1       indico.rh                 POST /event/3/papers/api/2/judge [IP=127.0.0.1] [PID=29668]
+2025-08-27 20:58:07,650  INFO     6a5f2811121949c1  1       indico.events.papers      Paper <Paper(contribution_id=2, state=rejected)> was judged by <User(1, recanos@yandex.ru): "Recanos Karp"> to Reject
+2025-08-27 20:58:07,669  ERROR    6a5f2811121949c1  1       indico.emails             Flushing queued email "[Indico] Paper assessment" failed; stored data in /home/recanos/dev/indico/data/tmp/failed-email-2025-08-27-w8eq4i1s
+Traceback (most recent call last):
+  File "/home/recanos/dev/indico/src/indico/core/notifications.py", line 112, in flush_email_queue
+    fn(email, log_entry)
+  File "/home/recanos/dev/indico/src/indico/core/emails.py", line 110, in do_send_email
+    with get_connection() as conn:
+  File "/home/recanos/dev/indico/src/indico/vendor/django_mail/backends/base.py", line 61, in __enter__
+    self.open()
+  File "/home/recanos/dev/indico/src/indico/vendor/django_mail/backends/smtp.py", line 115, in open
+    self.connection = self.connection_class(
+                      ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/.pyenv/versions/3.12.2/lib/python3.12/smtplib.py", line 255, in __init__
+    (code, msg) = self.connect(host, port)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/.pyenv/versions/3.12.2/lib/python3.12/smtplib.py", line 341, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/.pyenv/versions/3.12.2/lib/python3.12/smtplib.py", line 312, in _get_socket
+    return socket.create_connection((host, port), timeout,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/.pyenv/versions/3.12.2/lib/python3.12/socket.py", line 828, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/.pyenv/versions/3.12.2/lib/python3.12/socket.py", line 963, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno -2] Name or service not known
+2025-08-27 20:58:07,972  INFO     2e11f14ded1e4ac7  1       indico.rh                 GET /event/3/papers/api/2 [IP=127.0.0.1] [PID=29668]
+2025-08-27 20:58:14,729  INFO     f672b034534f465f  1       indico.rh                 GET /event/3/manage/ [IP=127.0.0.1] [PID=29668]
+2025-08-27 20:58:19,867  INFO     9950083b24014bc4  1       indico.rh                 GET /event/3/manage/export [IP=127.0.0.1] [PID=29668]
+2025-08-27 21:11:13,797  INFO     3dd85b11090e469d  1       indico.rh                 GET /event/3/manage/export [IP=127.0.0.1] [PID=34121]
+2025-08-27 21:30:05,801  INFO     da1fc92935934669  1       indico.rh                 GET /event/3/manage/ [IP=127.0.0.1] [PID=34121]
+2025-08-30 12:52:57,186  INFO     31b9bc5224d547db  1       indico.rh                 GET / [IP=127.0.0.1] [PID=9263]
+2025-08-30 12:53:08,636  INFO     5b029cf38f534a5b  1       indico.rh                 GET /user/dashboard/ [IP=127.0.0.1] [PID=9263]
+2025-08-30 12:53:12,647  INFO     5da79341dd754daa  1       indico.rh                 GET /event/3/ [IP=127.0.0.1] [PID=9263]
+2025-08-30 12:53:19,554  INFO     b5965a0d6047441f  1       indico.rh                 GET /event/3/papers/ [IP=127.0.0.1] [PID=9263]
+2025-08-30 12:53:23,186  INFO     bf4ef35b5c1c4c97  1       indico.rh                 GET /event/3/manage/ [IP=127.0.0.1] [PID=9263]
+2025-08-30 12:53:26,346  INFO     5c116e187ac34c99  1       indico.rh                 GET /event/3/manage/export [IP=127.0.0.1] [PID=9263]
+2025-08-30 12:56:05,686  INFO     be8a16a084cc4247  1       indico.rh                 GET /event/3/manage/papers/ [IP=127.0.0.1] [PID=9263]
+2025-08-30 12:56:12,476  INFO     ad3bd5b4b8e8481c  1       indico.rh                 GET /event/3/manage/ [IP=127.0.0.1] [PID=9263]
+2025-08-30 12:56:21,723  INFO     1760d12304614486  1       indico.rh                 GET /event/3/manage/ [IP=127.0.0.1] [PID=9263]
+2025-08-30 12:56:26,911  INFO     bdbe620edd554f88  1       indico.rh                 GET /event/3/papers/1/ [IP=127.0.0.1] [PID=9263]
+2025-08-30 12:56:28,194  INFO     549a045176924b74  1       indico.rh                 GET /event/3/papers/api/1 [IP=127.0.0.1] [PID=9263]
+2025-08-30 12:56:42,541  INFO     a82da167b4d14c9f  1       indico.rh                 GET / [IP=127.0.0.1] [PID=9263]
+2025-08-30 12:56:47,453  INFO     eb18059eca6044ee  1       indico.rh                 GET /event/3/ [IP=127.0.0.1] [PID=9263]
+2025-08-30 12:56:53,465  INFO     a028465578b246e0  1       indico.rh                 GET /event/3/contributions/mine [IP=127.0.0.1] [PID=9263]
+2025-08-30 12:57:01,361  INFO     86942867ee234460  1       indico.rh                 GET /event/3/contributions/ [IP=127.0.0.1] [PID=9263]
+2025-08-30 12:57:13,045  INFO     d2d3baf5d7894f21  1       indico.rh                 GET /event/3/contributions/1/ [IP=127.0.0.1] [PID=9263]
+2025-08-30 12:57:17,180  INFO     71f3e9bea4994df9  1       indico.rh                 GET /event/3/manage/contributions/1/edit?standalone=1&_=1756547833848 [IP=127.0.0.1] [PID=9263]
+2025-08-30 12:57:17,729  INFO     d8ac152c0b2c49da  1       indico.rh                 GET /user/api/favorites/users [IP=127.0.0.1] [PID=9263]
+2025-08-30 12:57:48,649  INFO     0cee963300ba4936  1       indico.rh                 GET /event/3/manage/contributions/1/attachments/?_=1756547833849 [IP=127.0.0.1] [PID=9263]
+2025-08-30 12:57:52,364  INFO     bdc772345d364ab3  1       indico.rh                 GET /event/3/manage/contributions/1/edit?standalone=1&_=1756547833850 [IP=127.0.0.1] [PID=9263]
+2025-08-30 12:57:52,568  INFO     62d5ecb18a8d4380  1       indico.rh                 GET /user/api/favorites/users [IP=127.0.0.1] [PID=9263]
+2025-08-30 12:58:21,951  INFO     b7dcbd25d80846f9  1       indico.rh                 GET /event/3/timetable/ [IP=127.0.0.1] [PID=9263]
+2025-08-30 12:58:29,522  INFO     9f4d188bb48a4214  1       indico.rh                 GET /event/3/contributions/mine [IP=127.0.0.1] [PID=9263]
+2025-08-30 12:58:32,010  INFO     d9531731c3eb41d6  1       indico.rh                 GET /event/3/manage/contributions/1/edit?standalone=1&_=1756547910020 [IP=127.0.0.1] [PID=9263]
+2025-08-30 12:58:32,306  INFO     834166df27dc48ac  1       indico.rh                 GET /user/api/favorites/users [IP=127.0.0.1] [PID=9263]
+2025-08-30 12:58:36,590  INFO     cbd06041449844e6  1       indico.rh                 GET /event/3/timetable/ [IP=127.0.0.1] [PID=9263]
+2025-08-30 12:58:43,669  INFO     8b9f1a0b364e42d7  1       indico.rh                 PUT /event/3/manage/contributions/published [IP=127.0.0.1] [PID=9263]
+2025-08-30 12:58:49,430  INFO     a950f48139064806  1       indico.rh                 GET /event/3/contributions/mine [IP=127.0.0.1] [PID=9263]
+2025-08-30 12:58:55,250  INFO     158e782c2758401e  1       indico.rh                 GET /event/3/manage/contributions/1/edit?standalone=1&_=1756547930072 [IP=127.0.0.1] [PID=9263]
+2025-08-30 12:58:55,484  INFO     2739bbec7e814de1  1       indico.rh                 GET /user/api/favorites/users [IP=127.0.0.1] [PID=9263]
+2025-08-30 12:59:03,692  INFO     0796132717f34c31  1       indico.rh                 GET /event/3/manage/ [IP=127.0.0.1] [PID=9263]
+2025-08-30 12:59:13,834  INFO     f3dff2533a7e4867  1       indico.rh                 GET /event/3/manage/timetable/ [IP=127.0.0.1] [PID=9263]
+2025-08-30 12:59:25,462  INFO     62486d26c12a4547  1       indico.rh                 GET /event/3/manage/timetable/not-scheduled?_=1756547954376 [IP=127.0.0.1] [PID=9263]
+2025-08-30 12:59:34,954  INFO     7d4b4fac78984c99  1       indico.rh                 POST /event/3/manage/timetable/schedule [IP=127.0.0.1] [PID=9263]
+2025-08-30 12:59:35,025  INFO     7d4b4fac78984c99  1       indico.events.timetable   Timetable entry <TimetableEntry(1, CONTRIBUTION, 2025-08-27 06:00:00+00:00, 2025-08-27 06:23:00+00:00): <Contribution(1): "ТЕСТОВЫЙ ДОКЛАД">> created by <User(1, recanos@yandex.ru): "Recanos Karp">
+2025-08-30 12:59:35,053  INFO     7d4b4fac78984c99  1       indico.events.timetable   Timetable entry <TimetableEntry(2, CONTRIBUTION, 2025-08-27 06:23:00+00:00, 2025-08-27 06:43:00+00:00): <Contribution(2): "Хуй пизда">> created by <User(1, recanos@yandex.ru): "Recanos Karp">
+2025-08-30 12:59:44,650  INFO     5c9dd74516c54e6f  1       indico.rh                 POST /event/3/manage/timetable/entry/2/edit/datetime [IP=127.0.0.1] [PID=9263]
+2025-08-30 12:59:44,700  INFO     5c9dd74516c54e6f  1       indico.events.timetable   Timetable entry <TimetableEntry(2, CONTRIBUTION, 2025-08-27 07:50:00+00:00, 2025-08-27 08:10:00+00:00): <Contribution(2): "Хуй пизда">> updated by <User(1, recanos@yandex.ru): "Recanos Karp">
+2025-08-30 12:59:46,864  INFO     5723bfc584284e88  1       indico.rh                 GET /event/3/manage/timetable/entry/2/info [IP=127.0.0.1] [PID=9263]
+2025-08-30 13:00:15,042  INFO     671398bd3eb746f2  1       indico.rh                 GET /event/3/manage/timetable/entry/2/info [IP=127.0.0.1] [PID=9263]
+2025-08-30 13:00:18,460  INFO     3c33d78de9c74f24  1       indico.rh                 POST /event/3/manage/timetable/entry/2/delete [IP=127.0.0.1] [PID=9263]
+2025-08-30 13:00:18,524  INFO     3c33d78de9c74f24  1       indico.events.timetable   Timetable entry <TimetableEntry(2, BREAK, 2025-08-27 07:50:00+00:00, None)> deleted by <User(1, recanos@yandex.ru): "Recanos Karp">
+2025-08-30 13:00:26,131  INFO     33cfb6bda72946ae  1       indico.rh                 GET /event/3/manage/timetable/not-scheduled?_=1756547954377 [IP=127.0.0.1] [PID=9263]
+2025-08-30 13:00:27,850  INFO     4cef1d069e494fe3  1       indico.rh                 POST /event/3/manage/timetable/schedule [IP=127.0.0.1] [PID=9263]
+2025-08-30 13:00:27,893  INFO     4cef1d069e494fe3  1       indico.events.timetable   Timetable entry <TimetableEntry(3, CONTRIBUTION, 2025-08-28 08:00:00+03:00, 2025-08-28 08:20:00+03:00): <Contribution(2): "Хуй пизда">> created by <User(1, recanos@yandex.ru): "Recanos Karp">
+2025-08-30 13:00:29,424  INFO     509fa0f9dd0c4356  1       indico.rh                 POST /event/3/manage/timetable/entry/3/edit/datetime [IP=127.0.0.1] [PID=9263]
+2025-08-30 13:00:29,451  INFO     509fa0f9dd0c4356  1       indico.events.timetable   Timetable entry <TimetableEntry(3, CONTRIBUTION, 2025-08-28 05:55:00+00:00, 2025-08-28 06:15:00+00:00): <Contribution(2): "Хуй пизда">> updated by <User(1, recanos@yandex.ru): "Recanos Karp">
+2025-08-30 13:00:37,121  INFO     1c548f50d56f419e  1       indico.rh                 GET /event/3/manage/timetable/entry/3/info [IP=127.0.0.1] [PID=9263]
+2025-08-30 13:00:42,776  INFO     a142e883ed514367  1       indico.rh                 GET /event/3/manage/timetable/entry/1/info [IP=127.0.0.1] [PID=9263]
+2025-08-30 13:00:49,847  INFO     39935785324f485d  1       indico.rh                 GET /event/3/manage/export [IP=127.0.0.1] [PID=9263]
+2025-08-30 13:02:25,452  INFO     23a9f913e3914768  1       indico.rh                 GET / [IP=127.0.0.1] [PID=9263]
+2025-08-30 13:02:33,812  INFO     145155937a144547  1       indico.rh                 GET /event/3/ [IP=127.0.0.1] [PID=9263]
+2025-08-30 13:02:39,568  INFO     d8499824fee14b26  1       indico.rh                 GET /event/3/timetable/ [IP=127.0.0.1] [PID=9263]
+2025-08-30 13:02:43,314  INFO     02c9770c5d744bcd  1       indico.rh                 GET /event/3/timetable/entry/1/info [IP=127.0.0.1] [PID=9263]
+2025-08-30 13:02:59,389  INFO     409811c1c3dc4646  1       indico.rh                 GET /event/3/contributions/mine [IP=127.0.0.1] [PID=9263]
+2025-08-30 13:03:03,479  INFO     87418effe1b54d3b  1       indico.rh                 GET /event/3/timetable/ [IP=127.0.0.1] [PID=9263]
+2025-08-30 13:04:54,492  INFO     62a992e2520b4bd9  1       indico.rh                 GET /event/3/manage/ [IP=127.0.0.1] [PID=12231]
+2025-08-30 13:05:03,558  INFO     02a7e05cea254e68  1       indico.rh                 GET /event/3/manage/settings/dates?_=1756548296226 [IP=127.0.0.1] [PID=12231]
+2025-08-30 13:06:12,591  INFO     9985d388cbf249c9  1       indico.rh                 GET /user/dashboard/ [IP=127.0.0.1] [PID=12663]
+2025-08-30 13:06:15,782  INFO     089bc266e4f84b36  1       indico.rh                 GET / [IP=127.0.0.1] [PID=12663]
+2025-08-30 13:06:18,038  INFO     a181b649a6c84fb6  1       indico.rh                 GET /event/3/ [IP=127.0.0.1] [PID=12663]
+2025-08-30 13:06:20,476  INFO     0348a784b4474577  1       indico.rh                 GET /event/3/contributions/mine [IP=127.0.0.1] [PID=12663]
+2025-08-30 13:06:28,929  INFO     8d4f5837b1cb4441  1       indico.rh                 GET /event/3/timetable/ [IP=127.0.0.1] [PID=12663]
+2025-08-30 13:07:35,742  INFO     39ce5d9a35b64155  1       indico.rh                 GET /event/3/manage/ [IP=127.0.0.1] [PID=13038]
+2025-08-30 13:07:40,102  INFO     81a8126e42704504  1       indico.rh                 GET /event/3/manage/export [IP=127.0.0.1] [PID=13038]
+2025-08-30 13:18:42,774  ERROR    0000000000000000  -       indico.plugins            Could not load plugin exportdocs
+Traceback (most recent call last):
+  File "/home/recanos/dev/indico/env/lib/python3.12/site-packages/flask_pluginengine/engine.py", line 73, in _import_plugins
+    plugin_class = entry_point.load()
+                   ^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/dev/indico/env/lib/python3.12/site-packages/importlib_metadata/__init__.py", line 189, in load
+    module = import_module(match.group('module'))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/.pyenv/versions/3.12.2/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/recanos/dev/indico/indico_exportdocs/plugin.py", line 2, in <module>
+    from .controllers import blueprint
+  File "/home/recanos/dev/indico/indico_exportdocs/controllers.py", line 4, in <module>
+    from .util import generate_docx_list, generate_docx_report, generate_docx_papers
+  File "/home/recanos/dev/indico/indico_exportdocs/util.py", line 5, in <module>
+    from docx.enum.text import WD_ALIGN_PARAGRAPH, WD_ALIGN_VERTICAL
+ImportError: cannot import name 'WD_ALIGN_VERTICAL' from 'docx.enum.text' (/home/recanos/dev/indico/env/lib/python3.12/site-packages/docx/enum/text.py)
+2025-08-30 13:19:12,530  ERROR    0000000000000000  -       indico.plugins            Could not load plugin exportdocs
+Traceback (most recent call last):
+  File "/home/recanos/dev/indico/env/lib/python3.12/site-packages/flask_pluginengine/engine.py", line 73, in _import_plugins
+    plugin_class = entry_point.load()
+                   ^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/dev/indico/env/lib/python3.12/site-packages/importlib_metadata/__init__.py", line 189, in load
+    module = import_module(match.group('module'))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/.pyenv/versions/3.12.2/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/recanos/dev/indico/indico_exportdocs/plugin.py", line 2, in <module>
+    from .controllers import blueprint
+  File "/home/recanos/dev/indico/indico_exportdocs/controllers.py", line 4, in <module>
+    from .util import generate_docx_list, generate_docx_report, generate_docx_papers
+  File "/home/recanos/dev/indico/indico_exportdocs/util.py", line 5, in <module>
+    from docx.enum.text import WD_ALIGN_PARAGRAPH, WD_ALIGN_VERTICAL
+ImportError: cannot import name 'WD_ALIGN_VERTICAL' from 'docx.enum.text' (/home/recanos/dev/indico/env/lib/python3.12/site-packages/docx/enum/text.py)
+2025-08-30 13:19:48,143  ERROR    0000000000000000  -       indico.plugins            Could not load plugin exportdocs
+Traceback (most recent call last):
+  File "/home/recanos/dev/indico/env/lib/python3.12/site-packages/flask_pluginengine/engine.py", line 73, in _import_plugins
+    plugin_class = entry_point.load()
+                   ^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/dev/indico/env/lib/python3.12/site-packages/importlib_metadata/__init__.py", line 189, in load
+    module = import_module(match.group('module'))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/.pyenv/versions/3.12.2/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/recanos/dev/indico/indico_exportdocs/plugin.py", line 2, in <module>
+    from .controllers import blueprint
+  File "/home/recanos/dev/indico/indico_exportdocs/controllers.py", line 4, in <module>
+    from .util import generate_docx_list, generate_docx_report, generate_docx_papers
+  File "/home/recanos/dev/indico/indico_exportdocs/util.py", line 5, in <module>
+    from docx.enum.text import WD_ALIGN_PARAGRAPH, WD_ALIGN_VERTICAL
+ImportError: cannot import name 'WD_ALIGN_VERTICAL' from 'docx.enum.text' (/home/recanos/dev/indico/env/lib/python3.12/site-packages/docx/enum/text.py)
+2025-08-30 13:20:01,269  ERROR    0000000000000000  -       indico.plugins            Could not load plugin exportdocs
+Traceback (most recent call last):
+  File "/home/recanos/dev/indico/env/lib/python3.12/site-packages/flask_pluginengine/engine.py", line 73, in _import_plugins
+    plugin_class = entry_point.load()
+                   ^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/dev/indico/env/lib/python3.12/site-packages/importlib_metadata/__init__.py", line 189, in load
+    module = import_module(match.group('module'))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/.pyenv/versions/3.12.2/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/recanos/dev/indico/indico_exportdocs/plugin.py", line 2, in <module>
+    from .controllers import blueprint
+  File "/home/recanos/dev/indico/indico_exportdocs/controllers.py", line 4, in <module>
+    from .util import generate_docx_list, generate_docx_report, generate_docx_papers
+  File "/home/recanos/dev/indico/indico_exportdocs/util.py", line 5, in <module>
+    from docx.enum.text import WD_ALIGN_PARAGRAPH, WD_ALIGN_VERTICAL
+ImportError: cannot import name 'WD_ALIGN_VERTICAL' from 'docx.enum.text' (/home/recanos/dev/indico/env/lib/python3.12/site-packages/docx/enum/text.py)
+2025-08-30 13:20:12,201  ERROR    0000000000000000  -       indico.plugins            Could not load plugin exportdocs
+Traceback (most recent call last):
+  File "/home/recanos/dev/indico/env/lib/python3.12/site-packages/flask_pluginengine/engine.py", line 73, in _import_plugins
+    plugin_class = entry_point.load()
+                   ^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/dev/indico/env/lib/python3.12/site-packages/importlib_metadata/__init__.py", line 189, in load
+    module = import_module(match.group('module'))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/.pyenv/versions/3.12.2/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/recanos/dev/indico/indico_exportdocs/plugin.py", line 2, in <module>
+    from .controllers import blueprint
+  File "/home/recanos/dev/indico/indico_exportdocs/controllers.py", line 4, in <module>
+    from .util import generate_docx_list, generate_docx_report, generate_docx_papers
+  File "/home/recanos/dev/indico/indico_exportdocs/util.py", line 5, in <module>
+    from docx.enum.text import WD_ALIGN_PARAGRAPH, WD_ALIGN_VERTICAL
+ImportError: cannot import name 'WD_ALIGN_VERTICAL' from 'docx.enum.text' (/home/recanos/dev/indico/env/lib/python3.12/site-packages/docx/enum/text.py)
+2025-08-30 13:20:30,297  ERROR    0000000000000000  -       indico.plugins            Could not load plugin exportdocs
+Traceback (most recent call last):
+  File "/home/recanos/dev/indico/env/lib/python3.12/site-packages/flask_pluginengine/engine.py", line 73, in _import_plugins
+    plugin_class = entry_point.load()
+                   ^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/dev/indico/env/lib/python3.12/site-packages/importlib_metadata/__init__.py", line 189, in load
+    module = import_module(match.group('module'))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/.pyenv/versions/3.12.2/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/recanos/dev/indico/indico_exportdocs/plugin.py", line 2, in <module>
+    from .controllers import blueprint
+  File "/home/recanos/dev/indico/indico_exportdocs/controllers.py", line 4, in <module>
+    from .util import generate_docx_list, generate_docx_report, generate_docx_papers
+  File "/home/recanos/dev/indico/indico_exportdocs/util.py", line 5, in <module>
+    from docx.enum.text import WD_ALIGN_PARAGRAPH, WD_ALIGN_VERTICAL
+ImportError: cannot import name 'WD_ALIGN_VERTICAL' from 'docx.enum.text' (/home/recanos/dev/indico/env/lib/python3.12/site-packages/docx/enum/text.py)
+2025-08-30 13:22:52,441  ERROR    0000000000000000  -       indico.plugins            Could not load plugin exportdocs
+Traceback (most recent call last):
+  File "/home/recanos/dev/indico/env/lib/python3.12/site-packages/flask_pluginengine/engine.py", line 73, in _import_plugins
+    plugin_class = entry_point.load()
+                   ^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/dev/indico/env/lib/python3.12/site-packages/importlib_metadata/__init__.py", line 189, in load
+    module = import_module(match.group('module'))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/.pyenv/versions/3.12.2/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/recanos/dev/indico/indico_exportdocs/plugin.py", line 2, in <module>
+    from .controllers import blueprint
+  File "/home/recanos/dev/indico/indico_exportdocs/controllers.py", line 4, in <module>
+    from .util import generate_docx_list, generate_docx_report, generate_docx_papers
+  File "/home/recanos/dev/indico/indico_exportdocs/util.py", line 5, in <module>
+    from docx.enum.text import WD_ALIGN_PARAGRAPH, WD_ALIGN_VERTICAL
+ImportError: cannot import name 'WD_ALIGN_VERTICAL' from 'docx.enum.text' (/home/recanos/dev/indico/env/lib/python3.12/site-packages/docx/enum/text.py)
+2025-08-30 13:23:07,229  ERROR    0000000000000000  -       indico.plugins            Could not load plugin exportdocs
+Traceback (most recent call last):
+  File "/home/recanos/dev/indico/env/lib/python3.12/site-packages/flask_pluginengine/engine.py", line 73, in _import_plugins
+    plugin_class = entry_point.load()
+                   ^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/dev/indico/env/lib/python3.12/site-packages/importlib_metadata/__init__.py", line 189, in load
+    module = import_module(match.group('module'))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/.pyenv/versions/3.12.2/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/recanos/dev/indico/indico_exportdocs/plugin.py", line 2, in <module>
+    from .controllers import blueprint
+  File "/home/recanos/dev/indico/indico_exportdocs/controllers.py", line 4, in <module>
+    from .util import generate_docx_list, generate_docx_report, generate_docx_papers
+  File "/home/recanos/dev/indico/indico_exportdocs/util.py", line 5, in <module>
+    from docx.enum.text import WD_ALIGN_PARAGRAPH, WD_ALIGN_VERTICAL
+ImportError: cannot import name 'WD_ALIGN_VERTICAL' from 'docx.enum.text' (/home/recanos/dev/indico/env/lib/python3.12/site-packages/docx/enum/text.py)
+2025-08-30 13:23:13,052  ERROR    0000000000000000  -       indico.plugins            Could not load plugin exportdocs
+Traceback (most recent call last):
+  File "/home/recanos/dev/indico/env/lib/python3.12/site-packages/flask_pluginengine/engine.py", line 73, in _import_plugins
+    plugin_class = entry_point.load()
+                   ^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/dev/indico/env/lib/python3.12/site-packages/importlib_metadata/__init__.py", line 189, in load
+    module = import_module(match.group('module'))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/.pyenv/versions/3.12.2/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/recanos/dev/indico/indico_exportdocs/plugin.py", line 2, in <module>
+    from .controllers import blueprint
+  File "/home/recanos/dev/indico/indico_exportdocs/controllers.py", line 4, in <module>
+    from .util import generate_docx_list, generate_docx_report, generate_docx_papers
+  File "/home/recanos/dev/indico/indico_exportdocs/util.py", line 5, in <module>
+    from docx.enum.text import WD_ALIGN_PARAGRAPH, WD_ALIGN_VERTICAL
+ImportError: cannot import name 'WD_ALIGN_VERTICAL' from 'docx.enum.text' (/home/recanos/dev/indico/env/lib/python3.12/site-packages/docx/enum/text.py)
+2025-08-30 13:28:42,434  INFO     527549b8a0c242b5  1       indico.rh                 GET / [IP=127.0.0.1] [PID=16964]
+2025-08-30 13:28:45,702  INFO     7cc8a2c4551d4ba2  1       indico.rh                 GET /event/3/ [IP=127.0.0.1] [PID=16964]
+2025-08-30 13:28:50,338  INFO     8e751ea85a4648fb  1       indico.rh                 GET /event/3/manage/ [IP=127.0.0.1] [PID=16964]
+2025-08-30 13:28:54,434  INFO     dc5f4a190e01421e  1       indico.rh                 GET /event/3/manage/export [IP=127.0.0.1] [PID=16964]
+2025-08-30 13:33:39,089  INFO     2030ed181bdc457d  1       indico.rh                 GET /event/3/manage/export [IP=127.0.0.1] [PID=18056]
+2025-08-30 13:39:04,435  INFO     f6b45f5aa0604b9f  1       indico.rh                 GET /event/3/manage/export [IP=127.0.0.1] [PID=19570]
+2025-08-30 13:39:06,387  INFO     127d74e285384dc5  1       indico.rh                 GET /event/3/manage/export [IP=127.0.0.1] [PID=19570]
+2025-08-30 13:51:31,768  INFO     66a4197c03804d1b  1       indico.rh                 GET /event/3/manage/export [IP=127.0.0.1] [PID=21534]
+2025-09-01 11:40:52,599  INFO     d0b82be2029f421a  1       indico.rh                 GET /event/3/manage/export [IP=127.0.0.1] [PID=21534]
+2025-09-01 12:26:07,565  INFO     fd4c4939c55846e0  1       indico.rh                 GET /event/3/contributions/mine [IP=127.0.0.1] [PID=49707]
+2025-09-01 12:27:23,655  INFO     eed53e8e87d54762  1       indico.rh                 GET /event/3/contributions/ [IP=127.0.0.1] [PID=49707]
+2025-09-01 12:28:19,167  INFO     82c5eb7b04cc41e1  1       indico.rh                 POST /api/sign-url [IP=127.0.0.1] [PID=49707]
+2025-09-01 12:28:19,279  INFO     82c5eb7b04cc41e1  1       indico.url_signing        <User(1, recanos@yandex.ru): "Recanos Karp"> signed URL for endpoint 'events.export_event_ical' with params {'event_id': '3'}
+2025-09-01 12:28:30,944  INFO     d50165fddbf14502  1       indico.rh                 GET /event/3/contributions/mine [IP=127.0.0.1] [PID=49707]
+2025-09-01 12:28:43,361  INFO     3ef3221739204c7f  1       indico.rh                 GET /event/3/manage/ [IP=127.0.0.1] [PID=49707]
+2025-09-01 12:33:53,427  INFO     77059e33f5a64e30  1       indico.rh                 GET / [IP=127.0.0.1] [PID=4305]
+2025-09-01 12:33:58,229  INFO     46064a2a80524cce  1       indico.rh                 GET /event/3/ [IP=127.0.0.1] [PID=4305]
+2025-09-01 12:34:01,924  INFO     a13136217545411d  1       indico.rh                 GET /event/3/manage/ [IP=127.0.0.1] [PID=4305]
+2025-09-01 12:34:08,949  INFO     d5892adc6d024d3a  1       indico.rh                 GET /event/3/manage/export [IP=127.0.0.1] [PID=4305]
+2025-09-01 12:34:31,541  INFO     84657b5a25e0489d  1       indico.rh                 GET /event/3/manage/contributions/ [IP=127.0.0.1] [PID=4305]
+2025-09-01 12:34:32,175  INFO     29c526cf0f944bb0  1       indico.rh                 GET /event/3/manage/contributions/published [IP=127.0.0.1] [PID=4305]
+2025-09-01 12:38:04,577  INFO     d3d868b7aee5425c  1       indico.rh                 GET /event/3/manage/export [IP=127.0.0.1] [PID=4305]
+2025-09-01 12:38:10,621  INFO     c1afc70726944dc1  1       indico.rh                 GET /event/3/manage/export [IP=127.0.0.1] [PID=4305]
+2025-09-01 15:17:58,366  INFO     475da15ee8e74cf4  1       indico.rh                 GET /event/3/contributions/2/ [IP=127.0.0.1] [PID=10450]
+2025-09-01 15:18:00,502  INFO     c98001b66870478b  1       indico.rh                 GET /event/3/contributions/2/ [IP=127.0.0.1] [PID=10450]
+2025-09-01 15:18:06,966  INFO     48b5fa58cfcb436f  1       indico.rh                 GET /event/3/manage/contributions/2/edit?standalone=1&_=1756729084483 [IP=127.0.0.1] [PID=10450]
+2025-09-01 15:18:07,728  INFO     33f0411090674565  1       indico.rh                 GET /user/api/favorites/users [IP=127.0.0.1] [PID=10450]
+2025-09-01 15:18:43,014  INFO     960453261a504758  1       indico.rh                 GET /user/search/info [IP=127.0.0.1] [PID=10450]
+2025-09-01 15:19:07,423  INFO     0d380502be094dbb  1       indico.rh                 GET /event/3/contributions/2/check-person-email?email=9hnrp%40powerscrews.com [IP=127.0.0.1] [PID=10450]
+2025-09-01 15:19:30,258  INFO     2f707204d7bc411c  1       indico.rh                 GET /event/3/contributions/2/check-person-email?email=9hnrp%40powerscrews.com [IP=127.0.0.1] [PID=10450]
+2025-09-01 15:19:51,828  INFO     39dbea29121e4948  1       indico.rh                 GET / [IP=127.0.0.1] [PID=10450]
+2025-09-01 15:19:58,281  INFO     e7aeb1d0f906490c  1       indico.rh                 GET /event/2/ [IP=127.0.0.1] [PID=10450]
+2025-09-01 15:20:02,619  INFO     77c54621059b4be3  1       indico.rh                 GET /event/2/manage/ [IP=127.0.0.1] [PID=10450]
+2025-09-01 15:20:05,321  INFO     ed6efdfeabbb4761  1       indico.rh                 GET /event/2/manage/settings/data?_=1756729203209 [IP=127.0.0.1] [PID=10450]
+2025-09-01 15:20:15,295  INFO     8a0fa9568acd4043  1       indico.rh                 GET /event/2/manage/settings/persons?_=1756729203210 [IP=127.0.0.1] [PID=10450]
+2025-09-01 15:20:15,409  INFO     a0770c5400234cc0  1       indico.rh                 GET /user/api/favorites/users [IP=127.0.0.1] [PID=10450]
+2025-09-01 15:20:21,138  INFO     bc073ef8bc5545a5  1       indico.rh                 POST /event/2/manage/settings/persons [IP=127.0.0.1] [PID=10450]
+2025-09-01 15:20:21,433  INFO     bc073ef8bc5545a5  1       indico.events             Event <Event(2, 2025-08-25 22:00:00+00:00, 2025-08-26 00:00:00+00:00): "hui"> updated with {'person_link_data': {<EventPersonLink(3, person_id=3, event_id=2): "Recanos Karp">: True}} by <User(1, recanos@yandex.ru): "Recanos Karp">
+2025-09-01 15:20:32,772  INFO     81e64a6522cd41ee  1       indico.rh                 GET /user/dashboard/ [IP=127.0.0.1] [PID=10450]
+2025-09-01 15:20:41,520  INFO     09f3b92700b64565  1       indico.rh                 GET /event/2/ [IP=127.0.0.1] [PID=10450]
+2025-09-01 15:20:44,697  INFO     dae47cf6af224f8e  1       indico.rh                 GET /event/2/manage/ [IP=127.0.0.1] [PID=10450]
+2025-09-01 15:20:46,788  INFO     c2ed1ccdf10246f9  1       indico.rh                 GET /event/2/manage/settings/data?_=1756729245169 [IP=127.0.0.1] [PID=10450]
+2025-09-01 15:20:56,336  INFO     c9b11557a58d4106  1       indico.rh                 POST /event/2/manage/settings/data [IP=127.0.0.1] [PID=10450]
+2025-09-01 15:20:56,389  INFO     c9b11557a58d4106  1       indico.events             Event <Event(2, 2025-08-25 22:00:00+00:00, 2025-08-26 00:00:00+00:00): "тестик ивента 3"> updated with {'title': 'тестик ивента 3', 'description': '', 'url_shortcut': None} by <User(1, recanos@yandex.ru): "Recanos Karp">
+2025-09-01 15:21:00,853  INFO     469077afa5824382  1       indico.rh                 GET /user/dashboard/ [IP=127.0.0.1] [PID=10450]
+2025-09-01 15:21:06,731  INFO     ade1a1ffd52d42e2  1       indico.rh                 GET /event/2/ [IP=127.0.0.1] [PID=10450]
+2025-09-01 15:21:09,728  INFO     2d4b2d72fa6b4c31  1       indico.rh                 GET /event/2/manage/ [IP=127.0.0.1] [PID=10450]
+2025-09-01 15:21:15,954  INFO     92369a50da2342d4  1       indico.rh                 GET /event/2/manage/export [IP=127.0.0.1] [PID=10450]
+2025-09-01 15:21:18,965  ERROR    7d3062d1dfdf45d7  1       indico.flask              cannot access local variable 'row_number' where it is not associated with a value
+Traceback (most recent call last):
+  File "/home/recanos/dev/indico/env/lib/python3.12/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/dev/indico/env/lib/python3.12/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/dev/indico/env/lib/python3.12/site-packages/flask_pluginengine/util.py", line 190, in wrapped
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/dev/indico/indico_exportdocs/controllers.py", line 25, in export_papers
+    docx_bytes = generate_docx_papers(event_id)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/dev/indico/indico_exportdocs/util.py", line 530, in generate_docx_papers
+    if row_number == 1:
+       ^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'row_number' where it is not associated with a value
+2025-09-01 15:22:42,109  INFO     cdd7223371834aa5  1       indico.rh                 GET /event/2/manage/timetable/ [IP=127.0.0.1] [PID=10450]
+2025-09-01 15:22:44,786  INFO     a8081df83faa4fce  1       indico.rh                 GET /user/dashboard/ [IP=127.0.0.1] [PID=10450]
+2025-09-01 15:22:48,310  INFO     881e771e62044b69  1       indico.rh                 GET /event/1/ [IP=127.0.0.1] [PID=10450]
+2025-09-01 15:22:50,991  INFO     afe17e844b674bfd  1       indico.rh                 GET /event/1/manage/ [IP=127.0.0.1] [PID=10450]
+2025-09-01 15:22:58,670  INFO     65d49e8f107f49a3  1       indico.rh                 GET /event/1/manage/attachments/ [IP=127.0.0.1] [PID=10450]
+2025-09-01 15:23:07,047  INFO     74e54e68b12b476c  1       indico.rh                 GET /event/1/manage/ [IP=127.0.0.1] [PID=10450]
+2025-09-01 15:23:10,084  INFO     cf5649cb4ecc4ae8  1       indico.rh                 GET /event/1/manage/export [IP=127.0.0.1] [PID=10450]
+2025-09-01 15:23:11,169  ERROR    7639ddd9919e4995  1       indico.flask              cannot access local variable 'row_number' where it is not associated with a value
+Traceback (most recent call last):
+  File "/home/recanos/dev/indico/env/lib/python3.12/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/dev/indico/env/lib/python3.12/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/dev/indico/env/lib/python3.12/site-packages/flask_pluginengine/util.py", line 190, in wrapped
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/dev/indico/indico_exportdocs/controllers.py", line 25, in export_papers
+    docx_bytes = generate_docx_papers(event_id)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/dev/indico/indico_exportdocs/util.py", line 530, in generate_docx_papers
+    if row_number == 1:
+       ^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'row_number' where it is not associated with a value
+2025-09-01 15:23:22,931  INFO     5a879d69bc754bc4  1       indico.rh                 GET / [IP=127.0.0.1] [PID=10450]
+2025-09-01 15:23:26,244  INFO     975195c89b8345fa  1       indico.rh                 GET /event/3/ [IP=127.0.0.1] [PID=10450]
+2025-09-01 15:23:32,736  INFO     a5e6657129764541  1       indico.rh                 GET /event/3/contributions/ [IP=127.0.0.1] [PID=10450]
+2025-09-01 15:23:35,646  INFO     e64125294a0a416e  1       indico.rh                 GET /event/3/contributions/2/ [IP=127.0.0.1] [PID=10450]
+2025-09-01 15:23:38,114  INFO     804116af06054ab9  1       indico.rh                 GET /event/3/manage/contributions/2/edit?standalone=1&_=1756729416371 [IP=127.0.0.1] [PID=10450]
+2025-09-01 15:23:38,571  INFO     0dbbfc1c6f21407a  1       indico.rh                 GET /user/api/favorites/users [IP=127.0.0.1] [PID=10450]
+2025-09-01 15:23:54,344  INFO     8b98d84b1d564dee  1       indico.rh                 POST /event/3/manage/contributions/2/edit?standalone=1 [IP=127.0.0.1] [PID=10450]
+2025-09-01 15:23:54,492  INFO     8b98d84b1d564dee  1       indico.events.contributions Contribution <Contribution(2): "Тестовый докладик"> updated by <User(1, recanos@yandex.ru): "Recanos Karp">
+2025-09-01 15:23:54,569  INFO     8172bd71125d43a3  1       indico.rh                 GET /event/3/contributions/2/ [IP=127.0.0.1] [PID=10450]
+2025-09-01 15:24:07,703  INFO     02db764d81f74b93  1       indico.rh                 GET /event/3/manage/ [IP=127.0.0.1] [PID=10450]
+2025-09-01 15:24:13,088  INFO     662951f9e5624874  1       indico.rh                 GET /event/3/manage/contributions/ [IP=127.0.0.1] [PID=10450]
+2025-09-01 15:24:13,818  INFO     62057336eb4e47bd  1       indico.rh                 GET /event/3/manage/contributions/published [IP=127.0.0.1] [PID=10450]
+2025-09-01 15:24:16,532  INFO     b3c5f72d6899452c  1       indico.rh                 GET /event/3/manage/papers/ [IP=127.0.0.1] [PID=10450]
+2025-09-01 15:24:25,839  INFO     d2462a764c44402b  1       indico.rh                 GET /event/3/manage/export [IP=127.0.0.1] [PID=10450]
+2025-09-01 15:28:15,598  INFO     8144cd446f114853  1       indico.rh                 GET /logout/?next=/event/3/manage/contributions/ [IP=127.0.0.1] [PID=10450]
+2025-09-01 15:28:15,645  INFO     14ac19c1f42c4f58  -       indico.rh                 GET /event/3/manage/contributions/ [IP=127.0.0.1] [PID=10450]
+2025-09-01 15:28:15,684  INFO     fa4aece521f84244  -       indico.rh                 GET /login/?next=/event/3/manage/contributions/ [IP=127.0.0.1] [PID=10450]
+2025-09-01 15:28:19,448  INFO     eb7e4ed4fd6a4b6d  -       indico.rh                 GET /register/?next=/event/3/manage/contributions/ [IP=127.0.0.1] [PID=10450]
+2025-09-01 15:28:20,112  INFO     37117d871db44673  -       indico.rh                 GET /api/captcha/generate [IP=127.0.0.1] [PID=10450]
+2025-09-01 15:28:46,901  INFO     9eb004992a614df8  -       indico.rh                 GET /logout/ [IP=127.0.0.1] [PID=10450]
+2025-09-01 15:28:46,915  INFO     c22628071da345a0  -       indico.rh                 GET / [IP=127.0.0.1] [PID=10450]
+2025-09-01 15:29:20,392  INFO     a87275e113964f7b  -       indico.rh                 GET /event/1/ [IP=127.0.0.1] [PID=10450]
+2025-09-01 15:29:23,434  INFO     5f8f2a3b556b4ee8  -       indico.rh                 GET /event/1/manage/ [IP=127.0.0.1] [PID=10450]
+2025-09-01 15:29:23,576  INFO     46a8f825cbc54c35  -       indico.rh                 GET /login/?next=/event/1/manage/ [IP=127.0.0.1] [PID=10450]
+2025-09-01 15:29:27,809  INFO     570f4a1757a14867  -       indico.rh                 POST /login/?next=/event/1/manage/ [IP=127.0.0.1] [PID=10450]
+2025-09-01 15:29:32,362  INFO     87d9913d025c4db6  -       indico.rh                 POST /login/?next=/event/1/manage/ [IP=127.0.0.1] [PID=10450]
+2025-09-01 15:29:39,441  INFO     8c8feaa0cf014c4a  -       indico.rh                 POST /login/?next=/event/1/manage/ [IP=127.0.0.1] [PID=10450]
+2025-09-01 15:29:40,377  INFO     0a1e1fd6f7b24c75  -       indico.rh                 POST /login/?next=/event/1/manage/ [IP=127.0.0.1] [PID=10450]
+2025-09-01 15:29:41,153  INFO     fa2e8614ba3f4005  -       indico.rh                 POST /login/?next=/event/1/manage/ [IP=127.0.0.1] [PID=10450]
+2025-09-01 15:29:42,270  INFO     1bd8663581ed4989  -       indico.rh                 GET / [IP=127.0.0.1] [PID=10450]
+2025-09-01 15:29:45,420  INFO     3e19de2620f2477b  -       indico.rh                 GET /login/ [IP=127.0.0.1] [PID=10450]
+2025-09-01 15:29:47,011  INFO     6f31a132119d4977  -       indico.rh                 POST /login/ [IP=127.0.0.1] [PID=10450]
+2025-09-01 15:29:48,965  INFO     570f4a1757a14867  -       indico.auth               Received identity info: <IdentityInfo(<IndicoIdentityProvider(indico)>, recanos, None)>
+2025-09-01 15:29:48,975  INFO     570f4a1757a14867  -       indico.auth               Found existing identity <Identity(1, 1, indico, recanos)> for user <User(1, recanos@yandex.ru): "Recanos Karp">
+2025-09-01 15:29:52,666  INFO     87d9913d025c4db6  -       indico.auth               Received identity info: <IdentityInfo(<IndicoIdentityProvider(indico)>, recanos, None)>
+2025-09-01 15:29:52,670  INFO     87d9913d025c4db6  -       indico.auth               Found existing identity <Identity(1, 1, indico, recanos)> for user <User(1, recanos@yandex.ru): "Recanos Karp">
+2025-09-01 15:29:59,826  INFO     8c8feaa0cf014c4a  -       indico.auth               Received identity info: <IdentityInfo(<IndicoIdentityProvider(indico)>, recanos, None)>
+2025-09-01 15:29:59,833  INFO     8c8feaa0cf014c4a  -       indico.auth               Found existing identity <Identity(1, 1, indico, recanos)> for user <User(1, recanos@yandex.ru): "Recanos Karp">
+2025-09-01 15:30:00,702  INFO     0a1e1fd6f7b24c75  -       indico.auth               Received identity info: <IdentityInfo(<IndicoIdentityProvider(indico)>, recanos, None)>
+2025-09-01 15:30:00,705  INFO     0a1e1fd6f7b24c75  -       indico.auth               Found existing identity <Identity(1, 1, indico, recanos)> for user <User(1, recanos@yandex.ru): "Recanos Karp">
+2025-09-01 15:30:01,475  INFO     fa2e8614ba3f4005  -       indico.auth               Received identity info: <IdentityInfo(<IndicoIdentityProvider(indico)>, recanos, None)>
+2025-09-01 15:30:01,479  INFO     fa2e8614ba3f4005  -       indico.auth               Found existing identity <Identity(1, 1, indico, recanos)> for user <User(1, recanos@yandex.ru): "Recanos Karp">
+2025-09-01 15:30:07,298  INFO     6f31a132119d4977  -       indico.auth               Received identity info: <IdentityInfo(<IndicoIdentityProvider(indico)>, recanos, None)>
+2025-09-01 15:30:07,301  INFO     6f31a132119d4977  -       indico.auth               Found existing identity <Identity(1, 1, indico, recanos)> for user <User(1, recanos@yandex.ru): "Recanos Karp">
+2025-09-01 15:30:07,312  INFO     60b37e6859b849b8  1       indico.rh                 GET /event/1/manage/ [IP=127.0.0.1] [PID=10450]
+2025-09-01 15:33:07,286  INFO     8de9f098c40345f6  1       indico.rh                 GET /user/dashboard/ [IP=127.0.0.1] [PID=10450]
+2025-09-01 15:33:08,496  INFO     364461fefe524ec1  1       indico.rh                 GET /user/1/picture-default/MQ.7PNi0m3iNmVb9Kx8yx6tt2HTRC8 [IP=127.0.0.1] [PID=10450]
+2025-09-01 15:33:15,198  INFO     b21184e0e4554afc  1       indico.rh                 GET /event/1/ [IP=127.0.0.1] [PID=10450]
+2025-09-01 15:33:17,466  INFO     b087543852de4f88  1       indico.rh                 GET /event/1/manage/ [IP=127.0.0.1] [PID=10450]
+2025-09-01 15:33:26,238  INFO     5e8828e3a1fb43b7  1       indico.rh                 GET /event/3/ [IP=127.0.0.1] [PID=10450]
+2025-09-01 15:33:33,844  INFO     99365cf7a0ee434d  1       indico.rh                 GET /event/3/papers/ [IP=127.0.0.1] [PID=10450]
+2025-09-01 15:33:42,759  INFO     edfefae5c7324216  1       indico.rh                 GET /event/3/papers/1/ [IP=127.0.0.1] [PID=10450]
+2025-09-01 15:33:43,919  INFO     925c7009af2948e1  1       indico.rh                 GET /event/3/papers/api/1 [IP=127.0.0.1] [PID=10450]
+2025-09-01 15:33:48,760  INFO     75b77c2394254d6a  1       indico.rh                 GET /event/3/papers/2/ [IP=127.0.0.1] [PID=10450]
+2025-09-01 15:33:49,474  INFO     9fd8ceaf6f0c493c  1       indico.rh                 GET /event/3/papers/api/2 [IP=127.0.0.1] [PID=10450]
+2025-09-01 15:34:13,034  INFO     7b417b25de8e43d8  1       indico.rh                 GET /event/3/papers/1/ [IP=127.0.0.1] [PID=10450]
+2025-09-01 15:34:13,993  INFO     29d2c584c9da4ff0  1       indico.rh                 GET /event/3/papers/api/1 [IP=127.0.0.1] [PID=10450]
+2025-09-01 15:34:28,434  INFO     2a8b005b886346c2  1       indico.rh                 GET /event/3/contributions/mine [IP=127.0.0.1] [PID=10450]
+2025-09-01 15:34:36,287  INFO     ae507faba9ef4116  1       indico.rh                 GET /event/3/manage/ [IP=127.0.0.1] [PID=10450]
+2025-09-01 15:34:43,711  INFO     e678d5a520774638  1       indico.rh                 GET /event/3/manage/papers/ [IP=127.0.0.1] [PID=10450]
+2025-09-01 15:34:55,903  INFO     fbdb8564508443f8  1       indico.rh                 GET /event/3/manage/contributions/ [IP=127.0.0.1] [PID=10450]
+2025-09-01 15:34:56,820  INFO     b354b77a62fb40aa  1       indico.rh                 GET /event/3/manage/contributions/published [IP=127.0.0.1] [PID=10450]
+2025-09-01 15:35:03,241  INFO     7013fa58bb934f73  1       indico.rh                 GET /event/3/manage/contributions/create?_=1756730096513 [IP=127.0.0.1] [PID=10450]
+2025-09-01 15:35:03,602  INFO     5977dad3e0ea4296  1       indico.rh                 GET /user/api/favorites/users [IP=127.0.0.1] [PID=10450]
+2025-09-01 15:42:05,043  INFO     69b41664a0c84f70  1       indico.rh                 GET /event/3/manage/contributions/ [IP=127.0.0.1] [PID=23097]
+2025-09-01 15:42:06,845  INFO     fb81f4b982c24257  1       indico.rh                 GET /event/3/manage/contributions/published [IP=127.0.0.1] [PID=23097]
+2025-09-01 15:42:12,175  INFO     c4390a6746394efc  1       indico.rh                 GET /admin/settings/ [IP=127.0.0.1] [PID=23097]
+2025-09-01 15:42:13,187  INFO     29a8376a0f614217  1       indico.rh                 GET /admin/version-check?_=1756730532932 [IP=127.0.0.1] [PID=23097]
+2025-09-01 15:42:22,708  INFO     66dde82ea8d04bb4  1       indico.rh                 GET /admin/users/ [IP=127.0.0.1] [PID=23097]
+2025-09-01 15:42:26,765  INFO     35d1cec0ca91428b  1       indico.rh                 GET /admin/users/create/?_=1756730543135 [IP=127.0.0.1] [PID=23097]
+2025-09-01 15:43:02,610  INFO     2798d64f669a4ee7  1       indico.rh                 POST /admin/users/create/ [IP=127.0.0.1] [PID=23097]
+2025-09-01 15:43:09,507  INFO     194392185ed84081  1       indico.rh                 GET /admin/users/create/?_=1756730543136 [IP=127.0.0.1] [PID=23097]
+2025-09-01 15:44:45,466  INFO     1e1041f8b312460d  1       indico.rh                 POST /admin/users/create/ [IP=127.0.0.1] [PID=23097]
+2025-09-01 15:44:56,013  INFO     50b0135689124931  1       indico.rh                 POST /admin/users/create/ [IP=127.0.0.1] [PID=23097]
+2025-09-01 15:45:34,190  INFO     8a6e61c9165e419a  1       indico.rh                 POST /admin/users/create/ [IP=127.0.0.1] [PID=23097]
+2025-09-01 15:45:37,773  INFO     885a1df3c171403c  1       indico.rh                 GET /admin/users/create/?_=1756730543137 [IP=127.0.0.1] [PID=23097]
+2025-09-01 15:46:23,407  INFO     93ee97b1991e4892  1       indico.rh                 POST /admin/users/create/ [IP=127.0.0.1] [PID=23097]
+2025-09-01 15:46:27,801  INFO     8073087ab2d748dc  1       indico.rh                 GET /user/dashboard/ [IP=127.0.0.1] [PID=23097]
+2025-09-01 15:46:45,573  INFO     6656314104a542cb  1       indico.rh                 GET /event/2/ [IP=127.0.0.1] [PID=23097]
+2025-09-01 15:47:00,525  INFO     42485221d0fb4bc7  1       indico.rh                 GET /event/3/ [IP=127.0.0.1] [PID=23097]
+2025-09-01 15:47:03,417  INFO     b1a036b8206d42f7  1       indico.rh                 GET /event/3/papers/ [IP=127.0.0.1] [PID=23097]
+2025-09-01 15:47:09,652  INFO     6783b8e2be5d4508  1       indico.rh                 GET /event/1/ [IP=127.0.0.1] [PID=23097]
+2025-09-01 15:47:11,651  INFO     c74edef7cd9241e6  1       indico.rh                 GET /event/1/manage/ [IP=127.0.0.1] [PID=23097]
+2025-09-01 15:47:17,794  INFO     b9d8d3a1c65c41a1  1       indico.rh                 GET / [IP=127.0.0.1] [PID=23097]
+2025-09-01 15:47:28,101  INFO     ae359a25ffb24015  1       indico.rh                 GET /event/create/conference?category_id=0&_=1756730838461 [IP=127.0.0.1] [PID=23097]
+2025-09-01 15:47:28,262  INFO     a95ff00f19834f1f  1       indico.rh                 GET /category/0/info [IP=127.0.0.1] [PID=23097]
+2025-09-01 15:47:55,175  INFO     97e66b508b084444  1       indico.rh                 POST /event/create/conference [IP=127.0.0.1] [PID=23097]
+2025-09-01 15:47:55,260  INFO     97e66b508b084444  1       indico.events             Event <Event(4, 2025-09-01 13:00:00+00:00, 2025-09-01 15:00:00+00:00): "Ивент для сдачи"> created in <Category(0): "Home"> by <User(1, recanos@yandex.ru): "Recanos Karp"> 
+2025-09-01 15:47:55,347  INFO     c21a90dddedd40e3  1       indico.rh                 GET /event/4/manage/ [IP=127.0.0.1] [PID=23097]
+2025-09-01 15:47:58,507  INFO     dbb14f1f012a468b  1       indico.rh                 GET /event/4/manage/contributions/ [IP=127.0.0.1] [PID=23097]
+2025-09-01 15:47:59,116  INFO     05cacd8a46724f86  1       indico.rh                 GET /event/4/manage/contributions/published [IP=127.0.0.1] [PID=23097]
+2025-09-01 15:48:00,921  INFO     5947f0ea17064869  1       indico.rh                 GET /event/4/manage/contributions/create?_=1756730878905 [IP=127.0.0.1] [PID=23097]
+2025-09-01 15:48:01,135  INFO     5f1d0a1a7510451f  1       indico.rh                 GET /user/api/favorites/users [IP=127.0.0.1] [PID=23097]
+2025-09-01 15:49:19,776  INFO     5b082cbc9c834e4d  1       indico.rh                 GET /user/search/info [IP=127.0.0.1] [PID=23097]
+2025-09-01 15:49:25,251  INFO     3d669accbf084502  1       indico.rh                 GET /user/search/info [IP=127.0.0.1] [PID=23097]
+2025-09-01 15:49:39,253  INFO     beb53a51bb6748a2  1       indico.rh                 POST /event/4/manage/contributions/create [IP=127.0.0.1] [PID=23097]
+2025-09-01 15:49:39,398  INFO     beb53a51bb6748a2  1       indico.events.contributions Contribution <Contribution(3): "My contributions"> created by <User(1, recanos@yandex.ru): "Recanos Karp">
+2025-09-01 15:49:43,299  INFO     113916ab5ecd42e0  1       indico.rh                 GET /event/4/contributions/3/ [IP=127.0.0.1] [PID=23097]
+2025-09-01 15:49:54,813  INFO     07968842205945ea  1       indico.rh                 GET /event/4/manage/contributions/ [IP=127.0.0.1] [PID=23097]
+2025-09-01 15:49:55,470  INFO     791fbe2fa2f44671  1       indico.rh                 GET /event/4/manage/contributions/published [IP=127.0.0.1] [PID=23097]
+2025-09-01 15:50:02,773  INFO     40900aad014145b2  1       indico.rh                 GET /event/4/manage/contributions/ [IP=127.0.0.1] [PID=23097]
+2025-09-01 15:50:04,196  INFO     83a8c3e8307b4f75  1       indico.rh                 GET /event/4/manage/contributions/published [IP=127.0.0.1] [PID=23097]
+2025-09-01 15:50:05,912  INFO     1182e8b5e2b2442a  1       indico.rh                 GET /event/4/contributions/3/ [IP=127.0.0.1] [PID=23097]
+2025-09-01 15:50:10,604  INFO     6fb1903fdcba4b9e  1       indico.rh                 GET /event/4/timetable/ [IP=127.0.0.1] [PID=23097]
+2025-09-01 15:50:17,112  INFO     4719312d35bd4ccf  1       indico.rh                 PUT /event/4/manage/contributions/published [IP=127.0.0.1] [PID=23097]
+2025-09-01 15:50:22,714  INFO     cf78cdef57754c39  1       indico.rh                 GET /event/4/contributions/mine [IP=127.0.0.1] [PID=23097]
+2025-09-01 15:50:25,244  INFO     2f4db4723d4646ff  1       indico.rh                 GET /event/4/timetable/ [IP=127.0.0.1] [PID=23097]
+2025-09-01 15:50:31,278  INFO     4085b6b4216a49cf  1       indico.rh                 GET /event/4/overview [IP=127.0.0.1] [PID=23097]
+2025-09-01 15:50:33,547  INFO     5e906f1dcf974c59  1       indico.rh                 GET /event/4/timetable/ [IP=127.0.0.1] [PID=23097]
+2025-09-01 15:50:34,629  INFO     541dbd7ac54a4531  1       indico.rh                 GET /event/4/contributions/mine [IP=127.0.0.1] [PID=23097]
+2025-09-01 15:50:37,764  INFO     52cd216297754154  1       indico.rh                 GET /event/4/manage/contributions/3/edit?standalone=1&_=1756731035048 [IP=127.0.0.1] [PID=23097]
+2025-09-01 15:50:38,028  INFO     dc3751a659944af7  1       indico.rh                 GET /user/api/favorites/users [IP=127.0.0.1] [PID=23097]
+2025-09-01 15:50:50,964  INFO     2d8edea9b325409c  1       indico.rh                 GET /event/4/overview [IP=127.0.0.1] [PID=23097]
+2025-09-01 15:50:53,125  INFO     d8a7b251fd244cff  1       indico.rh                 GET /event/4/timetable/ [IP=127.0.0.1] [PID=23097]
+2025-09-01 15:50:55,016  INFO     170c97fbab994a92  1       indico.rh                 GET /event/4/timetable/ [IP=127.0.0.1] [PID=23097]
+2025-09-01 15:50:56,940  INFO     9225db22b22a489a  1       indico.rh                 GET /event/4/manage/ [IP=127.0.0.1] [PID=23097]
+2025-09-01 15:51:08,423  INFO     13e97f25e6e640bc  1       indico.rh                 GET /event/4/manage/ [IP=127.0.0.1] [PID=23097]
+2025-09-01 15:51:13,231  INFO     aacd483bbc8149d6  1       indico.rh                 GET /event/4/manage/contributions/ [IP=127.0.0.1] [PID=23097]
+2025-09-01 15:51:13,819  INFO     62ffc3ac30d844fb  1       indico.rh                 GET /event/4/manage/contributions/published [IP=127.0.0.1] [PID=23097]
+2025-09-01 15:51:21,195  INFO     954f9a22357a48a4  1       indico.rh                 GET /event/4/contributions/3/ [IP=127.0.0.1] [PID=23097]
+2025-09-01 15:51:23,829  INFO     05458313936a4dba  1       indico.rh                 GET /event/4/overview [IP=127.0.0.1] [PID=23097]
+2025-09-01 15:51:25,317  INFO     3a2b25c4464640b5  1       indico.rh                 GET /event/4/timetable/ [IP=127.0.0.1] [PID=23097]
+2025-09-01 15:53:59,684  INFO     2ab219099da74339  1       indico.rh                 GET /event/4/contributions/mine [IP=127.0.0.1] [PID=23097]
+2025-09-01 15:54:02,689  INFO     d5591e8300ab4e9b  1       indico.rh                 GET /event/4/contributions/3/ [IP=127.0.0.1] [PID=23097]
+2025-09-01 15:54:08,039  INFO     180d10e03db14964  1       indico.rh                 GET /event/4/manage/contributions/3/edit?standalone=1&_=1756731243019 [IP=127.0.0.1] [PID=23097]
+2025-09-01 15:54:08,212  INFO     3d3bbd798b2747bb  1       indico.rh                 GET /user/api/favorites/users [IP=127.0.0.1] [PID=23097]
+2025-09-01 15:54:19,822  INFO     10ec09b81c34495a  1       indico.rh                 POST /event/4/manage/contributions/3/edit?standalone=1 [IP=127.0.0.1] [PID=23097]
+2025-09-01 15:54:19,937  INFO     10ec09b81c34495a  1       indico.events.contributions Contribution <Contribution(3): "My contributions"> updated by <User(1, recanos@yandex.ru): "Recanos Karp">
+2025-09-01 15:54:19,958  INFO     4bef1b78789d4f28  1       indico.rh                 GET /event/4/contributions/3/ [IP=127.0.0.1] [PID=23097]
+2025-09-01 15:54:21,924  INFO     f48af2c96d8b47d2  1       indico.rh                 GET /event/4/overview [IP=127.0.0.1] [PID=23097]
+2025-09-01 15:54:24,078  INFO     2aa8d59e547c4ea8  1       indico.rh                 GET /event/4/timetable/ [IP=127.0.0.1] [PID=23097]
+2025-09-01 15:54:28,476  INFO     8b09c31cbc514043  1       indico.rh                 GET /event/4/manage/ [IP=127.0.0.1] [PID=23097]
+2025-09-01 15:54:33,946  INFO     32d50ddcb1ec4ac0  1       indico.rh                 GET /event/4/manage/settings/dates?_=1756731268931 [IP=127.0.0.1] [PID=23097]
+2025-09-01 15:54:36,102  INFO     6c225735474f427b  1       indico.rh                 GET /event/4/manage/timetable/ [IP=127.0.0.1] [PID=23097]
+2025-09-01 15:54:41,647  INFO     3abd37b2451944ea  1       indico.rh                 GET /event/4/manage/timetable/not-scheduled?_=1756731276567 [IP=127.0.0.1] [PID=23097]
+2025-09-01 15:54:44,719  INFO     fdd33f2f1b2c47e8  1       indico.rh                 GET /event/4/manage/timetable/add-contribution?day=2025%2F09%2F01&_=1756731276568 [IP=127.0.0.1] [PID=23097]
+2025-09-01 15:54:44,854  INFO     1b944d2c233e4d9c  1       indico.rh                 GET /user/api/favorites/users [IP=127.0.0.1] [PID=23097]
+2025-09-01 15:54:49,083  INFO     591a275076e845e2  1       indico.rh                 GET /event/4/manage/timetable/add-session?_=1756731276569 [IP=127.0.0.1] [PID=23097]
+2025-09-01 15:54:53,446  INFO     c340954357c94d77  1       indico.rh                 GET /event/4/manage/timetable/not-scheduled?_=1756731276570 [IP=127.0.0.1] [PID=23097]
+2025-09-01 15:54:55,806  INFO     26d7c54aafe54a52  1       indico.rh                 POST /event/4/manage/timetable/schedule [IP=127.0.0.1] [PID=23097]
+2025-09-01 15:54:55,864  INFO     26d7c54aafe54a52  1       indico.events.timetable   Timetable entry <TimetableEntry(4, CONTRIBUTION, 2025-09-01 13:00:00+00:00, 2025-09-01 13:20:00+00:00): <Contribution(3): "My contributions">> created by <User(1, recanos@yandex.ru): "Recanos Karp">
+2025-09-01 15:55:05,798  INFO     17ed4b6e410a4566  1       indico.rh                 GET /event/4/manage/contributions/ [IP=127.0.0.1] [PID=23097]
+2025-09-01 15:55:06,413  INFO     c6dd89c087d34266  1       indico.rh                 GET /event/4/manage/contributions/published [IP=127.0.0.1] [PID=23097]
+2025-09-01 15:55:07,537  INFO     531a8dda5a184bce  1       indico.rh                 GET /event/4/contributions/3/ [IP=127.0.0.1] [PID=23097]
+2025-09-01 15:55:08,991  INFO     3eb462881a4c43af  1       indico.rh                 GET /event/4/timetable/ [IP=127.0.0.1] [PID=23097]
+2025-09-01 15:55:16,487  INFO     f693218f234c4767  1       indico.rh                 GET /event/4/contributions/mine [IP=127.0.0.1] [PID=23097]
+2025-09-01 15:55:25,695  INFO     cd601244a69d4fc6  1       indico.rh                 GET /event/4/manage/ [IP=127.0.0.1] [PID=23097]
+2025-09-01 15:55:31,387  INFO     19d5bf31744449eb  1       indico.rh                 GET /event/4/manage/export [IP=127.0.0.1] [PID=23097]
+2025-09-01 15:56:29,999  INFO     f16b50fe51f14c0f  1       indico.rh                 GET /event/4/manage/contributions/ [IP=127.0.0.1] [PID=23097]
+2025-09-01 15:56:30,705  INFO     e79b59794c984406  1       indico.rh                 GET /event/4/manage/contributions/published [IP=127.0.0.1] [PID=23097]
+2025-09-01 15:56:38,494  INFO     bbdaf1908983452d  1       indico.rh                 GET /event/4/manage/papers/ [IP=127.0.0.1] [PID=23097]
+2025-09-01 15:56:43,365  INFO     6d05aac6479c41c3  1       indico.rh                 PUT /event/4/manage/features/papers [IP=127.0.0.1] [PID=23097]
+2025-09-01 15:56:43,387  INFO     6d05aac6479c41c3  1       indico.events.features    Feature 'papers' for event <Event(4, 2025-09-01 13:00:00+00:00, 2025-09-01 15:00:00+00:00): "Ивент для сдачи"> enabled by <User(1, recanos@yandex.ru): "Recanos Karp">
+2025-09-01 15:56:43,449  INFO     e70f211cb03d44c8  1       indico.rh                 GET /event/4/manage/papers/ [IP=127.0.0.1] [PID=23097]
+2025-09-01 15:57:15,423  INFO     78eabdf9b4c14eb1  1       indico.rh                 POST /event/4/manage/papers/open [IP=127.0.0.1] [PID=23097]
+2025-09-01 15:57:15,435  INFO     78eabdf9b4c14eb1  1       indico.events.papers      Call for papers for <Event(4, 2025-09-01 13:00:00+00:00, 2025-09-01 15:00:00+00:00): "Ивент для сдачи"> opened by <User(1, recanos@yandex.ru): "Recanos Karp">
+2025-09-01 15:57:18,765  INFO     2f9ccf0a35474976  1       indico.rh                 POST /event/4/manage/papers/close [IP=127.0.0.1] [PID=23097]
+2025-09-01 15:57:18,776  INFO     2f9ccf0a35474976  1       indico.events.papers      Call for papers for <Event(4, 2025-09-01 13:00:00+00:00, 2025-09-01 15:00:00+00:00): "Ивент для сдачи"> closed by <User(1, recanos@yandex.ru): "Recanos Karp">
+2025-09-01 15:57:29,702  INFO     6abdca04842c45d4  1       indico.rh                 GET /event/4/manage/papers/assignment-list/ [IP=127.0.0.1] [PID=23097]
+2025-09-01 15:57:43,735  INFO     d22af6aee52240f8  1       indico.rh                 GET /user/dashboard/ [IP=127.0.0.1] [PID=23097]
+2025-09-01 15:57:46,782  INFO     d71359520207440b  1       indico.rh                 GET /event/4/ [IP=127.0.0.1] [PID=23097]
+2025-09-01 15:57:51,417  INFO     d17c1b20ab8e41ee  1       indico.rh                 GET /event/4/papers/reviewing/ [IP=127.0.0.1] [PID=23097]
+2025-09-01 15:57:54,166  INFO     cba5d4fe467b44cf  1       indico.rh                 GET /event/4/papers/judging/ [IP=127.0.0.1] [PID=23097]
+2025-09-01 15:57:59,165  INFO     79051017950f4aff  1       indico.rh                 GET /event/4/papers/ [IP=127.0.0.1] [PID=23097]
+2025-09-01 15:58:04,141  INFO     448e84671c364016  1       indico.rh                 GET /event/4/papers/reviewing/ [IP=127.0.0.1] [PID=23097]
+2025-09-01 15:58:06,007  INFO     3ef824c9e0c64d21  1       indico.rh                 GET /event/4/papers/judging/ [IP=127.0.0.1] [PID=23097]
+2025-09-01 15:58:08,992  INFO     77f2ad4e6c8a4209  1       indico.rh                 GET /event/4/papers/ [IP=127.0.0.1] [PID=23097]
+2025-09-01 15:58:18,597  INFO     ae7cdc888e0745cf  1       indico.rh                 GET /event/4/contributions/mine [IP=127.0.0.1] [PID=23097]
+2025-09-01 15:58:20,862  INFO     c3da6445fc65459c  1       indico.rh                 GET /event/4/timetable/ [IP=127.0.0.1] [PID=23097]
+2025-09-01 15:58:24,653  INFO     96b57c601cce4847  1       indico.rh                 GET /event/4/manage/ [IP=127.0.0.1] [PID=23097]
+2025-09-01 15:58:31,709  INFO     5e2a72bf86a843bf  1       indico.rh                 GET /event/4/manage/timetable/ [IP=127.0.0.1] [PID=23097]
+2025-09-01 15:58:36,143  INFO     8879e2f2da1d4823  1       indico.rh                 POST /event/4/manage/timetable/entry/4/edit/datetime [IP=127.0.0.1] [PID=23097]
+2025-09-01 15:58:36,195  INFO     8879e2f2da1d4823  1       indico.events.timetable   Timetable entry <TimetableEntry(4, CONTRIBUTION, 2025-09-01 12:15:00+00:00, 2025-09-01 12:35:00+00:00): <Contribution(3): "My contributions">> updated by <User(1, recanos@yandex.ru): "Recanos Karp">
+2025-09-01 15:58:42,357  INFO     b7b44ca257f34b7a  1       indico.rh                 GET /event/4/manage/timetable/entry/4/info [IP=127.0.0.1] [PID=23097]
+2025-09-01 15:58:44,991  INFO     a3d05ca489884f8a  1       indico.rh                 POST /event/4/manage/timetable/entry/4/edit/datetime [IP=127.0.0.1] [PID=23097]
+2025-09-01 15:58:45,012  INFO     a3d05ca489884f8a  1       indico.events.timetable   Timetable entry <TimetableEntry(4, CONTRIBUTION, 2025-09-01 11:00:00+00:00, 2025-09-01 11:20:00+00:00): <Contribution(3): "My contributions">> updated by <User(1, recanos@yandex.ru): "Recanos Karp">
+2025-09-01 15:58:47,693  INFO     7c72e46ce63b4fb5  1       indico.rh                 POST /event/4/manage/timetable/entry/4/edit/datetime [IP=127.0.0.1] [PID=23097]
+2025-09-01 15:58:47,716  INFO     7c72e46ce63b4fb5  1       indico.events.timetable   Timetable entry <TimetableEntry(4, CONTRIBUTION, 2025-09-01 10:00:00+00:00, 2025-09-01 10:20:00+00:00): <Contribution(3): "My contributions">> updated by <User(1, recanos@yandex.ru): "Recanos Karp">
+2025-09-01 15:58:56,484  INFO     02c6f8ffcc1c4959  1       indico.rh                 GET /event/4/papers/ [IP=127.0.0.1] [PID=23097]
+2025-09-01 15:58:58,158  INFO     14bf4c76f2124860  1       indico.rh                 GET /event/4/papers/reviewing/ [IP=127.0.0.1] [PID=23097]
+2025-09-01 15:58:59,571  INFO     5129638602af47ac  1       indico.rh                 GET /event/4/papers/judging/ [IP=127.0.0.1] [PID=23097]
+2025-09-01 15:59:02,063  INFO     81c0b566ecfa4b1d  1       indico.rh                 GET /event/4/timetable/ [IP=127.0.0.1] [PID=23097]
+2025-09-01 15:59:05,551  INFO     40b1a81e476340c6  1       indico.rh                 GET /event/4/papers/ [IP=127.0.0.1] [PID=23097]
+2025-09-01 15:59:06,887  INFO     3b361fee06404d2c  1       indico.rh                 GET /event/4/papers/reviewing/ [IP=127.0.0.1] [PID=23097]
+2025-09-01 15:59:08,368  INFO     6a63426757bc4a7f  1       indico.rh                 GET /event/4/papers/judging/ [IP=127.0.0.1] [PID=23097]
+2025-09-01 15:59:17,021  INFO     1c5aafefafb4416b  1       indico.rh                 GET /event/4/manage/papers/assignment-list/ [IP=127.0.0.1] [PID=23097]
+2025-09-01 15:59:30,096  INFO     7588901375414aea  1       indico.rh                 POST /event/4/manage/papers/assignment-list/judge [IP=127.0.0.1] [PID=23097]
+2025-09-01 15:59:34,779  INFO     32eafc0809dd42d4  1       indico.rh                 POST /event/4/manage/papers/assignment-list/judge [IP=127.0.0.1] [PID=23097]
+2025-09-01 15:59:55,719  INFO     94c9c7ec20fb41db  1       indico.rh                 GET /event/4/manage/contributions/ [IP=127.0.0.1] [PID=23097]
+2025-09-01 15:59:56,373  INFO     b5386aa8c7b04ed5  1       indico.rh                 GET /event/4/manage/contributions/published [IP=127.0.0.1] [PID=23097]
+2025-09-01 15:59:58,186  INFO     0952c229fba642cd  1       indico.rh                 GET /event/4/contributions/3/ [IP=127.0.0.1] [PID=23097]
+2025-09-01 16:00:00,860  INFO     1111e9c0c91d4fc3  1       indico.rh                 GET /event/4/papers/ [IP=127.0.0.1] [PID=23097]
+2025-09-01 16:00:02,409  INFO     8ed331abad4c43d5  1       indico.rh                 GET /event/4/papers/reviewing/ [IP=127.0.0.1] [PID=23097]
+2025-09-01 16:00:03,577  INFO     b7a93945a9e54f5f  1       indico.rh                 GET /event/4/papers/judging/ [IP=127.0.0.1] [PID=23097]
+2025-09-01 16:00:05,109  INFO     a871f7c163834c01  1       indico.rh                 GET /event/4/contributions/ [IP=127.0.0.1] [PID=23097]
+2025-09-01 16:00:09,336  INFO     f7bcb1a686534d02  1       indico.rh                 GET /event/4/timetable/ [IP=127.0.0.1] [PID=23097]
+2025-09-01 16:00:11,009  INFO     ef671581d8204c48  1       indico.rh                 GET /event/4/contributions/ [IP=127.0.0.1] [PID=23097]
+2025-09-01 16:00:12,085  INFO     b49a52a7d8954ec5  1       indico.rh                 GET /event/4/contributions/mine [IP=127.0.0.1] [PID=23097]
+2025-09-01 16:00:13,691  INFO     02ab2448f5204444  1       indico.rh                 GET /event/4/contributions/3/ [IP=127.0.0.1] [PID=23097]
+2025-09-01 16:00:15,648  INFO     828ea97d66074936  1       indico.rh                 GET /event/4/manage/ [IP=127.0.0.1] [PID=23097]
+2025-09-01 16:00:57,357  INFO     cdd2760a5caf4fe7  1       indico.rh                 GET /event/4/manage/contributions/ [IP=127.0.0.1] [PID=23097]
+2025-09-01 16:00:58,033  INFO     3295a536543844bd  1       indico.rh                 GET /event/4/manage/contributions/published [IP=127.0.0.1] [PID=23097]
+2025-09-01 16:01:08,996  INFO     c3701087065c42b9  1       indico.rh                 GET /event/4/manage/papers/ [IP=127.0.0.1] [PID=23097]
+2025-09-01 16:01:21,226  INFO     c4e88cf851394c03  1       indico.rh                 GET /event/4/manage/papers/templates/?_=1756731669330 [IP=127.0.0.1] [PID=23097]
+2025-09-01 16:01:32,750  INFO     b61e5166c5974554  1       indico.rh                 DELETE /event/4/manage/papers/enable/content [IP=127.0.0.1] [PID=23097]
+2025-09-01 16:01:32,760  INFO     b61e5166c5974554  1       indico.events.papers      Reviewing type 'content' for event <Event(4, 2025-09-01 10:00:00+00:00, 2025-09-01 15:00:00+00:00): "Ивент для сдачи"> disabled by <User(1, recanos@yandex.ru): "Recanos Karp">
+2025-09-01 16:01:36,757  INFO     0388ca85712148c7  1       indico.rh                 GET /event/4/manage/papers/ [IP=127.0.0.1] [PID=23097]
+2025-09-01 16:01:42,412  INFO     976b8bcc508d423f  1       indico.rh                 GET /event/4/manage/contributions/ [IP=127.0.0.1] [PID=23097]
+2025-09-01 16:01:42,974  INFO     720aa8d362854c55  1       indico.rh                 GET /event/4/manage/contributions/published [IP=127.0.0.1] [PID=23097]
+2025-09-01 16:01:51,263  INFO     d48e01eec9654a54  1       indico.rh                 GET /event/4/manage/papers/ [IP=127.0.0.1] [PID=23097]
+2025-09-01 16:01:57,176  INFO     4a8cfcae8bfe4bed  1       indico.rh                 GET /event/4/manage/contributions/ [IP=127.0.0.1] [PID=23097]
+2025-09-01 16:01:57,785  INFO     26d2deda4ad64927  1       indico.rh                 GET /event/4/manage/contributions/published [IP=127.0.0.1] [PID=23097]
+2025-09-01 16:02:00,029  INFO     644a00233a5145f2  1       indico.rh                 GET /event/4/contributions/3/ [IP=127.0.0.1] [PID=23097]
+2025-09-01 16:02:03,265  INFO     081b38724bd64940  1       indico.rh                 GET /event/4/papers/reviewing/ [IP=127.0.0.1] [PID=23097]
+2025-09-01 16:02:05,041  INFO     da22e01d783e4646  1       indico.rh                 GET /event/4/papers/judging/ [IP=127.0.0.1] [PID=23097]
+2025-09-01 16:02:07,590  INFO     9f19b8dfc9c34e13  1       indico.rh                 GET /event/4/papers/ [IP=127.0.0.1] [PID=23097]
+2025-09-01 16:02:26,989  INFO     f94bdd66489b4183  1       indico.rh                 GET /event/4/manage/ [IP=127.0.0.1] [PID=23097]
+2025-09-01 16:02:35,908  INFO     37cf0b34820d402e  1       indico.rh                 GET /event/4/manage/contributions/ [IP=127.0.0.1] [PID=23097]
+2025-09-01 16:02:36,403  INFO     49ef9f17adeb4518  1       indico.rh                 GET /event/4/manage/contributions/published [IP=127.0.0.1] [PID=23097]
+2025-09-01 16:02:50,976  INFO     e1156ef0cefe4a04  1       indico.rh                 POST /event/4/manage/contributions/delete [IP=127.0.0.1] [PID=23097]
+2025-09-01 16:02:51,053  INFO     e1156ef0cefe4a04  1       indico.events.contributions Contribution <Contribution(3, is_deleted=True): "My contributions"> deleted by <User(1, recanos@yandex.ru): "Recanos Karp">
+2025-09-01 16:02:52,485  INFO     500cdc048a5b468e  1       indico.rh                 GET /event/4/manage/contributions/create?_=1756731756229 [IP=127.0.0.1] [PID=23097]
+2025-09-01 16:02:52,637  INFO     aeda437d91cb47c6  1       indico.rh                 GET /user/api/favorites/users [IP=127.0.0.1] [PID=23097]
+2025-09-01 16:03:15,152  INFO     b1be9ba593a94cab  1       indico.rh                 GET /user/search/info [IP=127.0.0.1] [PID=23097]
+2025-09-01 16:03:45,572  INFO     97fdbd9b5b8b40c4  1       indico.rh                 POST /event/4/manage/contributions/create [IP=127.0.0.1] [PID=23097]
+2025-09-01 16:03:45,738  INFO     97fdbd9b5b8b40c4  1       indico.events.contributions Contribution <Contribution(4): "моя контрибуция"> created by <User(1, recanos@yandex.ru): "Recanos Karp">
+2025-09-01 16:03:50,795  INFO     8537156eb3a0494e  1       indico.rh                 GET /event/4/manage/contributions/4/attachments/?_=1756731756230 [IP=127.0.0.1] [PID=23097]
+2025-09-01 16:03:52,315  INFO     e6cb6fbd7dec4ac3  1       indico.rh                 GET /event/4/manage/contributions/4/attachments/add/files?_=1756731756231 [IP=127.0.0.1] [PID=23097]
+2025-09-01 16:03:52,495  INFO     9505e979d65f496a  1       indico.rh                 GET /event/4/manage/api/event-roles [IP=127.0.0.1] [PID=23097]
+2025-09-01 16:03:52,498  INFO     9eeb9e58d61242cb  1       indico.rh                 GET /event/4/manage/api/category-roles [IP=127.0.0.1] [PID=23097]
+2025-09-01 16:03:52,526  INFO     75822978b12d4ccb  1       indico.rh                 GET /event/4/api/registration-forms [IP=127.0.0.1] [PID=23097]
+2025-09-01 16:03:52,505  INFO     ae76695b64af444b  1       indico.rh                 GET /user/api/favorites/users [IP=127.0.0.1] [PID=23097]
+2025-09-01 16:04:03,178  INFO     095c401731814084  1       indico.rh                 POST /event/4/manage/contributions/4/attachments/add/files [IP=127.0.0.1] [PID=23097]
+2025-09-01 16:04:03,268  INFO     095c401731814084  1       indico.attachments        Attachment <Attachment(1, README.md, <AttachmentFile(1, 1, README.md, text/markdown)>, protection_mode=inheriting, 1)> uploaded by <User(1, recanos@yandex.ru): "Recanos Karp">
+2025-09-01 16:04:12,908  INFO     a3cefaf81e834daf  1       indico.rh                 GET /event/4/manage/contributions/4/attachments/info-column [IP=127.0.0.1] [PID=23097]
+2025-09-01 16:04:17,289  INFO     9997fc2863c54c95  1       indico.rh                 GET /event/4/manage/timetable/ [IP=127.0.0.1] [PID=23097]
+2025-09-01 16:04:21,614  INFO     091ab158a6c1471b  1       indico.rh                 GET /event/4/manage/timetable/not-scheduled?_=1756731857985 [IP=127.0.0.1] [PID=23097]
+2025-09-01 16:04:25,982  INFO     60a7b7ba3a1c4a46  1       indico.rh                 POST /event/4/manage/timetable/schedule [IP=127.0.0.1] [PID=23097]
+2025-09-01 16:04:26,024  INFO     60a7b7ba3a1c4a46  1       indico.events.timetable   Timetable entry <TimetableEntry(5, CONTRIBUTION, 2025-09-01 10:00:00+00:00, 2025-09-01 10:20:00+00:00): <Contribution(4): "моя контрибуция">> created by <User(1, recanos@yandex.ru): "Recanos Karp">
+2025-09-01 16:04:31,582  INFO     589f0f1e42854b99  1       indico.rh                 POST /event/4/manage/timetable/entry/5/edit/datetime [IP=127.0.0.1] [PID=23097]
+2025-09-01 16:04:31,617  INFO     589f0f1e42854b99  1       indico.events.timetable   Timetable entry <TimetableEntry(5, CONTRIBUTION, 2025-09-01 09:50:00+00:00, 2025-09-01 10:10:00+00:00): <Contribution(4): "моя контрибуция">> updated by <User(1, recanos@yandex.ru): "Recanos Karp">
+2025-09-01 16:04:43,627  INFO     ce4d00d619ac4209  1       indico.rh                 GET /event/4/manage/papers/ [IP=127.0.0.1] [PID=23097]
+2025-09-01 16:04:46,117  INFO     931b458225c341ea  1       indico.rh                 GET /user/dashboard/ [IP=127.0.0.1] [PID=23097]
+2025-09-01 16:04:48,289  INFO     9c253d0ebbcb4be5  1       indico.rh                 GET /event/4/ [IP=127.0.0.1] [PID=23097]
+2025-09-01 16:04:51,132  INFO     9f4cc604e3e64268  1       indico.rh                 GET /event/4/papers/reviewing/ [IP=127.0.0.1] [PID=23097]
+2025-09-01 16:04:53,075  INFO     36646488ba8445d9  1       indico.rh                 GET /event/4/papers/judging/ [IP=127.0.0.1] [PID=23097]
+2025-09-01 16:04:55,323  INFO     1c8df129a35a4b6e  1       indico.rh                 GET /event/4/papers/ [IP=127.0.0.1] [PID=23097]
+2025-09-01 16:05:11,852  INFO     95f5e8e18db14e96  1       indico.rh                 GET /event/4/contributions/mine [IP=127.0.0.1] [PID=23097]
+2025-09-01 16:05:12,922  INFO     d1083b9b5cdb415c  1       indico.rh                 GET /event/4/timetable/ [IP=127.0.0.1] [PID=23097]
+2025-09-01 16:05:15,076  INFO     57b0f6365c9c48d6  1       indico.rh                 GET /event/4/timetable/entry/5/info [IP=127.0.0.1] [PID=23097]
+2025-09-01 16:05:26,805  INFO     f80ebe86e6df4591  1       indico.rh                 GET /event/4/overview [IP=127.0.0.1] [PID=23097]
+2025-09-01 16:05:29,618  INFO     8a9d5d65753d4b8c  1       indico.rh                 GET /event/4/manage/ [IP=127.0.0.1] [PID=23097]
+2025-09-01 16:05:37,616  INFO     af11807cecf247e6  1       indico.rh                 GET /event/4/manage/papers/ [IP=127.0.0.1] [PID=23097]
+2025-09-01 16:05:48,792  INFO     6f8addce9c684077  1       indico.rh                 POST /event/4/manage/papers/open [IP=127.0.0.1] [PID=23097]
+2025-09-01 16:05:48,818  INFO     6f8addce9c684077  1       indico.events.papers      Call for papers for <Event(4, 2025-09-01 09:50:00+00:00, 2025-09-01 15:00:00+00:00): "Ивент для сдачи"> opened by <User(1, recanos@yandex.ru): "Recanos Karp">
+2025-09-01 16:05:55,368  INFO     a65672dd70a34cb9  1       indico.rh                 PUT /event/4/manage/papers/enable/content [IP=127.0.0.1] [PID=23097]
+2025-09-01 16:05:55,381  INFO     a65672dd70a34cb9  1       indico.events.papers      Reviewing type 'content' for event <Event(4, 2025-09-01 09:50:00+00:00, 2025-09-01 15:00:00+00:00): "Ивент для сдачи"> enabled by <User(1, recanos@yandex.ru): "Recanos Karp">
+2025-09-01 16:05:56,415  INFO     0d5d5c2b312f4486  1       indico.rh                 PUT /event/4/manage/papers/enable/layout [IP=127.0.0.1] [PID=23097]
+2025-09-01 16:05:56,429  INFO     0d5d5c2b312f4486  1       indico.events.papers      Reviewing type 'layout' for event <Event(4, 2025-09-01 09:50:00+00:00, 2025-09-01 15:00:00+00:00): "Ивент для сдачи"> enabled by <User(1, recanos@yandex.ru): "Recanos Karp">
+2025-09-01 16:06:03,003  INFO     2a22f282978a43a2  1       indico.rh                 GET /event/4/manage/contributions/ [IP=127.0.0.1] [PID=23097]
+2025-09-01 16:06:03,440  INFO     3542318737c54db8  1       indico.rh                 GET /event/4/manage/contributions/published [IP=127.0.0.1] [PID=23097]
+2025-09-01 16:06:09,997  INFO     ecbe900fdf374323  1       indico.rh                 GET /event/4/manage/papers/ [IP=127.0.0.1] [PID=23097]
+2025-09-01 16:06:12,568  INFO     a21ffef7dc1e4a29  1       indico.rh                 GET /user/dashboard/ [IP=127.0.0.1] [PID=23097]
+2025-09-01 16:06:14,524  INFO     d6f506f8daef4ae8  1       indico.rh                 GET /event/4/ [IP=127.0.0.1] [PID=23097]
+2025-09-01 16:06:16,878  INFO     16f9713acd604602  1       indico.rh                 GET /event/4/papers/reviewing/ [IP=127.0.0.1] [PID=23097]
+2025-09-01 16:06:20,569  INFO     5d484d1fa11e4b77  1       indico.rh                 GET /event/4/papers/judging/ [IP=127.0.0.1] [PID=23097]
+2025-09-01 16:06:20,570  INFO     13a7d6f5c8de4fed  1       indico.rh                 GET /event/4/papers/reviewing/ [IP=127.0.0.1] [PID=23097]
+2025-09-01 16:06:20,566  INFO     6e6836b552a3455f  1       indico.rh                 GET /event/4/papers/reviewing/ [IP=127.0.0.1] [PID=23097]
+2025-09-01 16:06:23,049  INFO     c2604764471b4be8  1       indico.rh                 GET /event/4/papers/reviewing/ [IP=127.0.0.1] [PID=23097]
+2025-09-01 16:06:25,802  INFO     c00e0a7cad004126  1       indico.rh                 GET /event/4/papers/ [IP=127.0.0.1] [PID=23097]
+2025-09-01 16:06:28,686  INFO     8c98c5d201974d21  1       indico.rh                 GET /event/4/contributions/4/paper/submit?_=1756731986225 [IP=127.0.0.1] [PID=23097]
+2025-09-01 16:06:34,230  INFO     ec738592769c440d  1       indico.rh                 POST /event/4/contributions/4/paper/submit?_=1756731986225 [IP=127.0.0.1] [PID=23097]
+2025-09-01 16:06:34,322  INFO     ec738592769c440d  1       indico.events.papers      Paper revision <PaperRevision(3, 4, state=submitted)> submitted by <User(1, recanos@yandex.ru): "Recanos Karp">
+2025-09-01 16:06:34,367  INFO     53202144bcb04c87  1       indico.rh                 GET /event/4/papers/4/ [IP=127.0.0.1] [PID=23097]
+2025-09-01 16:06:35,160  INFO     54fbcee04ed746e6  1       indico.rh                 GET /event/4/papers/api/4 [IP=127.0.0.1] [PID=23097]
+2025-09-01 16:06:56,222  INFO     f70e85157431469f  1       indico.rh                 POST /event/4/papers/api/4/judge [IP=127.0.0.1] [PID=23097]
+2025-09-01 16:06:56,294  INFO     f70e85157431469f  1       indico.events.papers      Paper <Paper(contribution_id=4, state=accepted)> was judged by <User(1, recanos@yandex.ru): "Recanos Karp"> to Accept
+2025-09-01 16:06:56,327  ERROR    f70e85157431469f  1       indico.emails             Flushing queued email "[Indico] Paper assessment" failed; stored data in /home/recanos/dev/indico/data/tmp/failed-email-2025-09-01-142s5_nl
+Traceback (most recent call last):
+  File "/home/recanos/dev/indico/src/indico/core/notifications.py", line 112, in flush_email_queue
+    fn(email, log_entry)
+  File "/home/recanos/dev/indico/src/indico/core/emails.py", line 110, in do_send_email
+    with get_connection() as conn:
+  File "/home/recanos/dev/indico/src/indico/vendor/django_mail/backends/base.py", line 61, in __enter__
+    self.open()
+  File "/home/recanos/dev/indico/src/indico/vendor/django_mail/backends/smtp.py", line 115, in open
+    self.connection = self.connection_class(
+                      ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/.pyenv/versions/3.12.2/lib/python3.12/smtplib.py", line 255, in __init__
+    (code, msg) = self.connect(host, port)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/.pyenv/versions/3.12.2/lib/python3.12/smtplib.py", line 341, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/.pyenv/versions/3.12.2/lib/python3.12/smtplib.py", line 312, in _get_socket
+    return socket.create_connection((host, port), timeout,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/.pyenv/versions/3.12.2/lib/python3.12/socket.py", line 828, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/.pyenv/versions/3.12.2/lib/python3.12/socket.py", line 963, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno -2] Name or service not known
+2025-09-01 16:06:56,804  INFO     bdd185e2b46f4773  1       indico.rh                 GET /event/4/papers/api/4 [IP=127.0.0.1] [PID=23097]
+2025-09-01 16:07:01,301  INFO     76371494450f4794  1       indico.rh                 GET /event/4/papers/judging/ [IP=127.0.0.1] [PID=23097]
+2025-09-01 16:07:04,614  INFO     9d755357aed04531  1       indico.rh                 GET /event/4/papers/reviewing/ [IP=127.0.0.1] [PID=23097]
+2025-09-01 16:09:23,981  INFO     955c045cf9464082  1       indico.rh                 GET /event/4/papers/ [IP=127.0.0.1] [PID=23097]
+2025-09-01 16:09:32,169  INFO     ac16d0fa68b64aef  1       indico.rh                 GET /event/4/papers/4/ [IP=127.0.0.1] [PID=23097]
+2025-09-01 16:09:32,812  INFO     8c775473bd874ad3  1       indico.rh                 GET /event/4/papers/api/4 [IP=127.0.0.1] [PID=23097]
+2025-09-01 16:09:37,840  INFO     efdef8cd10e44f31  1       indico.rh                 GET /event/4/papers/ [IP=127.0.0.1] [PID=23097]
+2025-09-01 16:09:41,176  INFO     c09fe014d5c24527  1       indico.rh                 GET /event/4/papers/reviewing/ [IP=127.0.0.1] [PID=23097]
+2025-09-01 16:09:43,633  INFO     c90ad6c895ad4acd  1       indico.rh                 GET /event/4/papers/ [IP=127.0.0.1] [PID=23097]
+2025-09-01 16:09:48,190  INFO     868f171c7a7c478d  1       indico.rh                 GET /event/4/papers/4/ [IP=127.0.0.1] [PID=23097]
+2025-09-01 16:09:48,722  INFO     2ddfdd0a8ba94904  1       indico.rh                 GET /event/4/papers/api/4 [IP=127.0.0.1] [PID=23097]
+2025-09-01 16:09:57,750  INFO     f39ec1e4795b4a62  1       indico.rh                 GET /event/4/manage/ [IP=127.0.0.1] [PID=23097]
+2025-09-01 16:10:01,316  INFO     06eb608e374141ad  1       indico.rh                 GET /event/4/manage/contributions/ [IP=127.0.0.1] [PID=23097]
+2025-09-01 16:10:02,157  INFO     74ce3c87f6bb476a  1       indico.rh                 GET /event/4/manage/contributions/published [IP=127.0.0.1] [PID=23097]
+2025-09-01 16:10:04,813  INFO     3f7288291b7a4b64  1       indico.rh                 GET /event/4/manage/contributions/create?_=1756732201951 [IP=127.0.0.1] [PID=23097]
+2025-09-01 16:10:04,993  INFO     11f728cbe24b4921  1       indico.rh                 GET /user/api/favorites/users [IP=127.0.0.1] [PID=23097]
+2025-09-01 16:10:38,227  INFO     dc7e09bbc30d4460  1       indico.rh                 POST /event/4/manage/contributions/create [IP=127.0.0.1] [PID=23097]
+2025-09-01 16:10:38,333  INFO     dc7e09bbc30d4460  1       indico.events.contributions Contribution <Contribution(5): "Лулаков контрибьюшн"> created by <User(1, recanos@yandex.ru): "Recanos Karp">
+2025-09-01 16:10:43,116  INFO     5156699ffefe4eb3  1       indico.rh                 GET /event/4/manage/contributions/create?_=1756732201952 [IP=127.0.0.1] [PID=23097]
+2025-09-01 16:10:43,241  INFO     4451bba02c8b4f50  1       indico.rh                 GET /user/api/favorites/users [IP=127.0.0.1] [PID=23097]
+2025-09-01 16:11:22,757  INFO     8482c99d77894489  1       indico.rh                 POST /event/4/manage/contributions/create [IP=127.0.0.1] [PID=23097]
+2025-09-01 16:11:22,874  INFO     8482c99d77894489  1       indico.events.contributions Contribution <Contribution(6): "контрьбьюшн макса"> created by <User(1, recanos@yandex.ru): "Recanos Karp">
+2025-09-01 16:11:42,014  INFO     65eb97fa7b114ecc  1       indico.rh                 GET /event/4/manage/export [IP=127.0.0.1] [PID=23097]
+2025-09-01 16:13:09,465  INFO     40baeeef290c4054  1       indico.rh                 GET /event/4/manage/contributions/ [IP=127.0.0.1] [PID=23097]
+2025-09-01 16:13:10,169  INFO     7b54e56caeab4e58  1       indico.rh                 GET /event/4/manage/contributions/published [IP=127.0.0.1] [PID=23097]
+2025-09-01 16:13:22,961  INFO     6e19d1a90cbe48c1  1       indico.rh                 GET /event/4/manage/export [IP=127.0.0.1] [PID=23097]
+2025-09-01 16:28:05,987  INFO     3477d0a8459a4c28  1       indico.rh                 GET /event/4/manage/export [IP=127.0.0.1] [PID=32587]
+2025-09-01 16:33:05,751  INFO     c9e5d492868f43e4  1       indico.rh                 GET /event/4/manage/export [IP=127.0.0.1] [PID=33530]
+2025-09-01 16:36:58,991  INFO     a80dc06e2e8c4d8f  1       indico.rh                 GET /event/4/manage/export [IP=127.0.0.1] [PID=33530]
+2025-09-01 16:38:33,325  INFO     4b3b77d88c054af3  1       indico.rh                 GET /event/4/manage/export [IP=127.0.0.1] [PID=33530]
+2025-09-01 16:39:16,770  INFO     11dde1d76e094c52  1       indico.rh                 GET /event/4/manage/timetable/ [IP=127.0.0.1] [PID=33530]
+2025-09-01 16:39:25,472  INFO     37b6b2b4a49644e0  1       indico.rh                 GET /event/4/contributions/4/ [IP=127.0.0.1] [PID=33530]
+2025-09-01 16:39:42,553  INFO     2b660e96a07f47e4  1       indico.rh                 GET /event/4/manage/papers/ [IP=127.0.0.1] [PID=33530]
+2025-09-01 16:39:53,473  INFO     eca56801a043430e  1       indico.rh                 GET /event/4/contributions/4/ [IP=127.0.0.1] [PID=33530]
+2025-09-01 16:39:56,170  INFO     c71253c8e2e14b61  1       indico.rh                 GET /event/4/papers/ [IP=127.0.0.1] [PID=33530]
+2025-09-01 16:40:01,310  INFO     6ecdbe730f114ed7  1       indico.rh                 GET /event/4/papers/4/ [IP=127.0.0.1] [PID=33530]
+2025-09-01 16:40:02,802  INFO     062a31c151214a27  1       indico.rh                 GET /event/4/papers/api/4 [IP=127.0.0.1] [PID=33530]
+2025-09-01 16:40:21,667  INFO     1ad8cb4139274249  1       indico.rh                 GET /event/4/papers/ [IP=127.0.0.1] [PID=33530]
+2025-09-01 16:40:28,385  INFO     20b7daa607e84df3  1       indico.rh                 GET /event/4/papers/4/ [IP=127.0.0.1] [PID=33530]
+2025-09-01 16:40:29,430  INFO     851cfa22936b47d5  1       indico.rh                 GET /event/4/papers/api/4 [IP=127.0.0.1] [PID=33530]
+2025-09-01 16:40:35,705  INFO     db53d734da74448e  1       indico.rh                 DELETE /event/4/papers/api/4 [IP=127.0.0.1] [PID=33530]
+2025-09-01 16:40:35,895  INFO     db53d734da74448e  1       indico.events.papers      Paper <Paper(contribution_id=4, state=submitted)> state reset by <User(1, recanos@yandex.ru): "Recanos Karp">
+2025-09-01 16:40:36,094  ERROR    db53d734da74448e  1       indico.emails             Flushing queued email "[Indico] Paper assessment withdrawn" failed; stored data in /home/recanos/dev/indico/data/tmp/failed-email-2025-09-01-thevq11c
+Traceback (most recent call last):
+  File "/home/recanos/dev/indico/src/indico/core/notifications.py", line 112, in flush_email_queue
+    fn(email, log_entry)
+  File "/home/recanos/dev/indico/src/indico/core/emails.py", line 110, in do_send_email
+    with get_connection() as conn:
+  File "/home/recanos/dev/indico/src/indico/vendor/django_mail/backends/base.py", line 61, in __enter__
+    self.open()
+  File "/home/recanos/dev/indico/src/indico/vendor/django_mail/backends/smtp.py", line 115, in open
+    self.connection = self.connection_class(
+                      ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/.pyenv/versions/3.12.2/lib/python3.12/smtplib.py", line 255, in __init__
+    (code, msg) = self.connect(host, port)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/.pyenv/versions/3.12.2/lib/python3.12/smtplib.py", line 341, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/.pyenv/versions/3.12.2/lib/python3.12/smtplib.py", line 312, in _get_socket
+    return socket.create_connection((host, port), timeout,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/.pyenv/versions/3.12.2/lib/python3.12/socket.py", line 828, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/.pyenv/versions/3.12.2/lib/python3.12/socket.py", line 963, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno -2] Name or service not known
+2025-09-01 16:40:40,677  INFO     6d1ba9feae1f4d3a  1       indico.rh                 GET /event/4/papers/api/4 [IP=127.0.0.1] [PID=33530]
+2025-09-01 16:40:47,897  INFO     a444a3d00ca943ce  1       indico.rh                 POST /event/4/papers/api/4/judge [IP=127.0.0.1] [PID=33530]
+2025-09-01 16:40:47,964  INFO     a444a3d00ca943ce  1       indico.events.papers      Paper <Paper(contribution_id=4, state=rejected)> was judged by <User(1, recanos@yandex.ru): "Recanos Karp"> to Reject
+2025-09-01 16:40:47,984  ERROR    a444a3d00ca943ce  1       indico.emails             Flushing queued email "[Indico] Paper assessment" failed; stored data in /home/recanos/dev/indico/data/tmp/failed-email-2025-09-01-s4nok5m1
+Traceback (most recent call last):
+  File "/home/recanos/dev/indico/src/indico/core/notifications.py", line 112, in flush_email_queue
+    fn(email, log_entry)
+  File "/home/recanos/dev/indico/src/indico/core/emails.py", line 110, in do_send_email
+    with get_connection() as conn:
+  File "/home/recanos/dev/indico/src/indico/vendor/django_mail/backends/base.py", line 61, in __enter__
+    self.open()
+  File "/home/recanos/dev/indico/src/indico/vendor/django_mail/backends/smtp.py", line 115, in open
+    self.connection = self.connection_class(
+                      ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/.pyenv/versions/3.12.2/lib/python3.12/smtplib.py", line 255, in __init__
+    (code, msg) = self.connect(host, port)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/.pyenv/versions/3.12.2/lib/python3.12/smtplib.py", line 341, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/.pyenv/versions/3.12.2/lib/python3.12/smtplib.py", line 312, in _get_socket
+    return socket.create_connection((host, port), timeout,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/.pyenv/versions/3.12.2/lib/python3.12/socket.py", line 828, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/recanos/.pyenv/versions/3.12.2/lib/python3.12/socket.py", line 963, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno -2] Name or service not known
+2025-09-01 16:40:48,290  INFO     9270dcd4d31a4bef  1       indico.rh                 GET /event/4/papers/api/4 [IP=127.0.0.1] [PID=33530]
+2025-09-01 16:40:51,463  INFO     2eb13dab796945ce  1       indico.rh                 GET /event/4/manage/ [IP=127.0.0.1] [PID=33530]
+2025-09-01 16:40:56,048  INFO     4a95901dd152436a  1       indico.rh                 GET /event/4/manage/export [IP=127.0.0.1] [PID=33530]

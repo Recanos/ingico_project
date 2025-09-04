@@ -1,0 +1,19 @@
+Metadata-Version: 2.4
+Name: indico-plugin-exportdocs
+Version: 0.1.0
+Summary: Indico plugin for exporting lists and reports as docx
+Home-page: https://your-repo-url
+Author: Your Name
+Author-email: your@email.com
+License: MIT
+License-File: LICENSE
+Requires-Dist: indico
+Requires-Dist: python-docx
+Requires-Dist: docxtpl
+Dynamic: author
+Dynamic: author-email
+Dynamic: home-page
+Dynamic: license
+Dynamic: license-file
+Dynamic: requires-dist
+Dynamic: summary

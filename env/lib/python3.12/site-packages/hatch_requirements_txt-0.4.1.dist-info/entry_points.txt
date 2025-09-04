@@ -1,0 +1,2 @@
+[hatch]
+requirements_txt = hatch_requirements_txt

@@ -1,0 +1,12 @@
+{% extends 'events/contributions/management/contributions.html' %}
+
+{% block page_actions %}
+    {{ super() }}
+    <div class="group">
+        <a href="{{ url_for_plugin('.export_list', event_id=event.id) }}" 
+           class="i-button icon-file-word highlight"
+           title="Экспорт списка докладов в DOCX">
+            <span>Печать отчета</span>
+        </a>
+    </div>
+{% endblock %}
